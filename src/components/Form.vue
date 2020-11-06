@@ -1,49 +1,50 @@
 <template> 
     <div> 
         <form action="/action_page.php">
-            <div class="row2">
-                <div class="col-25" style="margin:0em;">
-                <label for="name">Name</label>
-                </div>
-                <div class="col-75">
-                <input type="text" id="fname" name="firstname" style="text-align:right; background-color:whitesmoke;">
-                </div>
-            </div>
-            <div class="row2">
-                <div class="col-25">
-                <label for="lname">Email address</label>
-                </div>
-                <div class="col-75" style="text-align:right; margin:0em;">
-                <input type="text" id="lname" name="lastname" style="text-align:right; background-color:whitesmoke;" placeholder="">
-                </div>
-            </div>
-            <div class="row2">
-                <div class="col-25" style="text-align:right; margin:0em;" >
-                <label for="topic">Topic</label>
-                </div>
-                <div class="col-75">
-                <select id="topic" name="topic" style="color:black; background-color:whitesmoke;">
-                    <option value="request"></option>
-                    <option value="request">Make a request</option>
-                    <option value="before">Before order</option>
-                    <option value="after">After order</option>
-                </select>
-                </div>
-            </div>
-            <div class="row2">
-                <div class="col-25">
-                <label for="subject">Additional info</label>
-                </div>
-                <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="" style="text-align:right; background-color:whitesmoke;; height:3em;" ></textarea>
-                </div>
-            </div>
-            <div class="row2" style="margin-bottom:8em;">
-                <div class="col-25" style="text-align:right; font-size:1.5em; margin-top:0em;padding-bottom:2em;" >
-                <input type="submit" style="background-color:whitesmoke;" value="Submit">
-                </div></div>
-            
-            </form>
+  <div class="row2">
+    <div class="col-25" style="margin-right:1em;margin-bottom:.34em;">
+      <label for="name">NAME</label>
+    </div>
+    <div class="col-75" style="text-align:right;">
+      <input type="text" id="name" name="name" style="text-align:right; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;" placeholder="">
+    </div>
+  </div>
+  <div class="row2">
+    <div class="col-25" style="margin-right:1em;margin-bottom:.34em;">
+      <label for="lname">EMAIL ADDRESS</label>
+    </div>
+    <div class="col-75" style="text-align:right;">
+      <input type="text" id="email" name="email" style="text-align:right; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;" placeholder="">
+    </div>
+  </div>
+  <div class="row2">
+    <div class="col-25" style="text-align:right; margin-right:1em; margin-bottom:.34em;">
+      <label for="topic">TOPIC</label>
+    </div>
+    <div class="col-75">
+      <select id="topic" name="topic" style="color:black; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;">
+        <option value="request"></option>
+        <option value="request">Make a request</option>
+        <option value="before">Before order</option>
+        <option value="after">After order</option>
+      </select>
+    </div>
+  </div>
+  <div class="row2">
+    <div class="col-25" style="margin-right:1em;margin-bottom:.34em;">
+      <label for="subject">ADDITIONAL INFO</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="" style="text-align:right; background-color:whitesmoke; height:3em;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;" ></textarea>
+    </div>
+  </div>
+   <div class="row2">
+
+    <div class="col-26" style="text-align:center; font-size:1.5em; margin-right:0em;" >
+      <input type="submit" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:.8em; padding-left:.8em;" value="SUBMIT">
+    </div></div>
+  
+  </form>
     </div>
 </template>
 
@@ -55,74 +56,55 @@ export default {
 }
 </script>
 <style scoped>
-.container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 26vw;
-  margin-right: 0em;
-  margin-bottom: 8em;
-  width: 50vw;
-  }
 
 @media (max-width: 33em) {
-  .container {
-    background:none;
-    }
-
-    .row {
-  background-color:none;
-  width: 100%;
-}
  }
 
 @media (max-width: 48em) {
-  .container {
-    margin-left:2vw;
-    margin-right:2vw;
-    margin-bottom:8em;
-    margin-top: 0em;
-    width: 75.67vw;
-     background-color:none;
-    }
-
-.col-25 {
+ .col-25 {
   text-align: right;
-  color: black;
   margin: 0em;
   padding:0em;
+  }
+
+.col-26 {
+  margin-bottom:9em;
   }
 
 .col-75 {
   text-align: right;
-  color: black;
   margin: 0em;
   padding:0em;
   background-color:none;
   }
-
-.row {
-  margin-right:4vw;
-}
 }
 
 @media (min-width: 48em){
   .left, .right{
     display: inline-block;
     vertical-align: top;
-    }
+     }
+     
+  .col-25 {
+  text-align: right;
+  color: black;
+  font-size: 1.125em;
+  border-radius: 25px;
+  margin-right:1em;
+  margin-bottom: .34em;
+  }
 
-    .row {
-margin-right:4vw;
-    }
-  
-  .container{
-    display: block;
-    margin-left: 22vw;
-    margin-top:2.34em;
-    margin-right: 2em;
-    margin-left: 12em;
-    width: 64vw;
-    }
+  .col-26 {
+  margin-bottom:6em;
+  }
+
+  .col-75 {
+  text-align: right;
+  color: black;
+  font-size: 1.125em;
+  border-radius: 25px;
+  margin-bottom:.34em;
+  }
 
   .col-25 {
   text-align: right;
@@ -134,11 +116,10 @@ margin-right:4vw;
   text-align: right;
   color: black;
   font-size: 1.34em;
-  font-weight: bold;
   }
 }
 
-@media (min-width: 64em){
+@media (min-width: 70em){
   .left, .right{
     display: inline-block;
     vertical-align: top;
@@ -146,13 +127,6 @@ margin-right:4vw;
   
     .row {
 margin-right:7.34vw;
-    }
-
-  .container{
-    display: block;
-    margin-left: 24.67vw;
-    width: 62vw;
-    height:48em;
     }
 
   .col-25 {
@@ -182,7 +156,7 @@ input[type=text], select, textarea {
   padding-bottom: 0em;
   border: 0px;
   resize: vertical;
-  font-family: 'elmo';
+  font-family: 'ABC Helveesti Trial';
   font-size: 1em;
   outline: none;
   background-color: none;
@@ -196,9 +170,8 @@ label {
 input[type=submit] {
   background-color:none;
   font-size: 1em;
-  font-family: 'tonii';
+  font-family: 'Arial Rounded MT Bold';
   border: none;
-
   padding:0em;
   cursor: pointer;
   float: right;
@@ -222,19 +195,6 @@ input[type=submit]:hover {
   
 
   @media (max-width: 48em) {
-     .Sidebar {
-      background:yellow;
-      margin-left:-.0em;
-      padding-left:.34em;
-      padding-top: .5em;
-      padding-bottom: .34em;
-      padding-right: .34em;
-      height: 12.67em;
-      width: 7em;
-      top:3.15em;
-      z-index: 2;
-        }
-
 .column {
   float: left;
   height: calc(8em + 5vw);
@@ -246,13 +206,12 @@ input[type=submit]:hover {
   margin-left: 2vw;
   margin-right: 2vw;
 
-  background-color:whitesmoke;}
+  background-color:none;}
 
  .col-25 {
   text-align: right;
   color: black;
   font-size: 1.25em;
-  font-weight: bold;
   margin: 0em;
   padding:0em;}
 
@@ -272,7 +231,7 @@ h3 {
   font-size:1.25em;
   margin-left: 2vw;
   margin-right: 2vw;
-  background-color: whitesmoke;
+  background-color: none;
   padding:2vw;
 }
 
@@ -280,18 +239,6 @@ h3 {
 
 
  @media (min-width: 48em) {
-     .Sidebar {
-      position: fixed;
-      background:none;
-      top: 3.56em;
-      bottom: 0;
-      left: 0;
-      background:none;
-      
-      z-index: 2;
-      width: 6em;
-        }
-
 .column {
   float: left;
   background-color: none;
@@ -302,32 +249,20 @@ h3 {
   padding-right: .67em;
   margin-left: 25vw;
   margin-right: 2vw;
-  background-color:whitesmoke;}
+  background-color: none;}
   
 h3 {
   margin-top:1.5em;
   margin-left:24.67vw;
   margin-right:2vw;
-  background-color: whitesmoke;
+  background-color: none;
   padding: .67vw;
   font-size:1.25em;
 }
 
       }
 
-  @media (min-width: 64em) {
-     .Sidebar {
-      position: fixed;
-      background:none;
-      top: 3.56em;
-      bottom: 0;
-      left: 0;
-      background:none;
-    
-      z-index: 2;
-      width: 6em;
-      margin-left:7.34vw;}
-
+  @media (min-width: 70em) {
 .column {
   float: left;
   height: 2em;
@@ -338,7 +273,7 @@ h3 {
   padding-right: .67em;
   margin-left: 25vw;
   margin-right: 2vw;
-  background-color:whitesmoke;}
+  background-color:none;}
   
 
 
@@ -347,7 +282,7 @@ h3 {
   margin-top:1.5em;
   margin-left:25vw;
   margin-right:2vw;
-  background-color: whitesmoke;
+  background-color: none;
   padding:.67vw;
 }
       }
@@ -362,14 +297,13 @@ h3 {
 .row2 {
   padding-top: .67em;
   padding-right: .67em;
-  margin-left: 2vw;
-  margin-right:2vw;}
+  margin-left: 5vw;
+  margin-right:5vw;}
 
  .col-25 {
   text-align: right;
   color: black;
   font-size: 1.25em;
-  font-weight: bold;
   margin: 0em;
   padding:0em;}
 
@@ -385,9 +319,8 @@ h3 {
 h3 {
   margin-top: 4.8em;
   font-size:1.25em;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  background-color: whitesmoke;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding:2vw;}
   }
 </style>

@@ -15,8 +15,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>"Ich träume so leise von dir" LP</p>
-				<p>Becker, Stegmann, Lasker-Schuler</p>
+				<p>"ICH TRÄUME SO LEISE VON DIR" LP</p>
+				<p>BECKER, STEGMANN, LASKER-SCHULER</p>
 			</div>
 		</div>
 		
@@ -504,23 +504,8 @@ form.example::after {
 /* Main content */
 .main {
   margin-top: 0px;}
-.Sidebar {
-  background:none; opacity: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  margin-left: 8vw;
-  font-size: 1.67em;
-  width: 7em;
-}
-.Hamburger {
-  position: fixed;
-  margin-top: 3em;
-  opacity: 0;
-  z-index: 2;
-  margin-left:2.5vw;
-}
+
+
 @media (max-width: 48em) {
 
   .header a {
@@ -532,16 +517,7 @@ form.example::after {
   left: 0;
   top: 0;
   }
-  .Sidebar {
-    transform: translate3d(-100%, 0, 0);
-    top: 3em;
-    
-  }
-  .Hamburger {
-    opacity: 1;
-    margin-left:2.5vw;
-    top: -2.2em;
-  }
+
  
   
   .topnav a, .topnav input[type=text] {
@@ -569,20 +545,6 @@ form.example::after {
 
 
 @media (max-width: 64em) {
-  .Sidebar {
-  position: fixed;
-  background:none;
-  top: 3.6em;
-  bottom: 0;
-  left: 0;
-  background:none;
-  opacity: 100%;
-  z-index: 0;
-  margin-left: 2.34vw;
-  width: 6em;
-  }
-}
-
 .topnav input[type=text] {
   float: right;
   border: none;
@@ -597,40 +559,16 @@ form.example::after {
   top: 0;
   width: 100%;}
 
-  
+  }
    @media (max-width: 48em) {
-     .Hamburger {
-  margin-left: 2.34vw;
-}
+
      
-      .Sidebar {
-      background:yellow;
-      margin-left:-.0em;
-      padding-left:.34em;
-      padding-top: .5em;
-      padding-bottom: .34em;
-      padding-right: .34em;
-      height: 12.67em;
-      width: 7em;
-        }
       }
  @media (min-width: 64em) {
     	.products {
 	margin-top: 2.6em;
   background-color: none;
 	}	
-     .Sidebar {
-      position: fixed;
-  background:none;
-  top: 3.6em;
-  bottom: 0;
-  left: 0;
-  background:none;
-  opacity: 100%;
-  z-index: 0;
-  margin-left: 7.34vw;
-  width: 6em;
-        }
       }
   #nav{
   display:none;

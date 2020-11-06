@@ -5,7 +5,7 @@
   <div class="container">
   <div class="left">
     <div class="item item1">
-      <h5 style="background-color:whitesmoke; padding:.67em;line-height:1em;">Welcome to the Frequently asked questions page. Here are the answers to them. In the chance that you have a question that is not frequently asked, please <mark><g-link to="/contact">gimme a holler over here.</g-link></mark><br></h5>
+      <h5 style="background-color:none;line-height:1.125em;font-family:ABC Helveesti Trial;">Welcome to the Frequently asked questions page. Here are the answers to them. In the chance that you have a question that is not frequently asked, please <mark><g-link to="/contact">gimme a holler over here.</g-link></mark><br></h5>
 </div>
       
 </div><div class="right">
@@ -13,16 +13,16 @@
       <section id="accordion">
 			  <div>
 				<input type="checkbox" id="check-5"/>
-				<label for="check-5" style="padding-bottom:0.67em;">Who are you?</label>
+				<label for="check-5" style="padding-bottom:0.67em;">WHO ARE YOU?</label>
 				<article>
-					<p style="margin-bottom:.67em;">I'm just a guy buying too many records. If not addiction, its gotta be defined as compulsion. My name is Evan Jordan. I'm an american guy, living in sweden. <br><br> I guess i've been collecting seriously for.. what year is it now? It's been almost 10 years now. I'd like to think i'm pretty knowledgable about all this stuff. Please drop me a line if you've got any questions, requests or just wanna chat. </p>
+					<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial;line-height:1.125;">I'm just a guy buying too many records. If not addiction, its gotta be defined as compulsion. My name is Evan Jordan. I'm an american guy, living in sweden. <br><br> I guess i've been collecting seriously for.. what year is it now? It's been almost 10 years now. I'd like to think i'm pretty knowledgable about all this stuff. Please drop me a line if you've got any questions, requests or just wanna chat. </p>
 				</article>
 			</div>
 			<div>
 				<input type="checkbox" id="check-1" />
-				<label for="check-1" style="padding-bottom:0.67em;">What is this place all about?</label>
+				<label for="check-1" style="padding-bottom:0.67em;">WHAT IS THIS PLACE ABOUT?</label>
 				<article>
-					<p style="margin-bottom:.67em;">Hope that this place becomes somewhere fun on the web. I'll be filing it with all sorts of records; the kind you like. All styles respected, but the stock is heavily weighted towards the lesser-known. It seems there is no end to the pool of '80s records. <br><br> In recent years, I'm leaning more and more towards do-it-yourself. Be it pop music, tropical, boogie, etc. so long as it hits right.</p>
+					<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial;line-height:1.125;">Hope that this place becomes somewhere fun on the web. I'll be filing it with all sorts of records; the kind you like. All styles respected, but the stock is heavily weighted towards the lesser-known. It seems there is no end to the pool of '80s records. <br><br> In recent years, I'm leaning more and more towards do-it-yourself. Be it pop music, tropical, boogie, etc. so long as it hits right.</p>
 				</article>
 			</div>
       </section>
@@ -31,9 +31,9 @@
       <section id="accordion">
 			<div>
 				<input type="checkbox" id="check-8" />
-				<label for="check-8" style="padding-bottom:0.67em;">What's with these prices?</label>
+				<label for="check-8" style="padding-bottom:0.67em;">WHAT'S WITH THESE PRICES?</label>
 				<article>
-					<p style="margin-bottom:.67em;">Pricing is a good topic. Everything considered (rarity, hype, condition, and the music itself), the pricing also reflects the time spent chasing down these records. Also included in the price is the number of shitty records I've bought in the gambling process of "discovering" something unknown.<br><br>
+					<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial; line-height:1.125;">Pricing is a good topic. Everything considered (rarity, hype, condition, and the music itself), the pricing also reflects the time spent chasing down these records. Also included in the price is the number of shitty records I've bought in the gambling process of "discovering" something unknown.<br><br>
           If the record is listed on discogs, I list cheaper. If there are no other copies available online, I'll try to find a price where it can sell for more in the future.<br><br>
           I agree there is a sizeable speculativity, but I want to err on being conservative in my pricing.</p>
 				</article>
@@ -44,16 +44,16 @@
         <section id="accordion">
 			<div>
 				<input type="checkbox" id="check-3" />
-				<label for="check-3" style="padding-bottom:0.67em;">How do i pay?</label>
+				<label for="check-3" style="padding-bottom:0.67em;">HOW DO I PAY?</label>
 				<article>
-					<p style="margin-bottom:.67em;">Payments can be made either by Paypal or, in the case of Swedish residents, Swish.</p>
+					<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial;line-height:1.125;">Payments can be made either by Paypal or, in the case of Swedish residents, Swish.</p>
 				</article>
 			</div>
 			<div>
 				<input type="checkbox" id="check-4" />
-				<label for="check-4">What can you tell me about shipping?</label>
+				<label for="check-4">WHAT CAN YOU TELL ME ABOUT SHIPPING?</label>
 				<article>
-					<p style="margin-bottom:.67em;">In your paypal payment, a tracking number will be added and can be searched <mark><g-link to="https://www.postnord.se/en/our-tools/track-and-trace2">right here.</g-link></mark> PostNord delivers within 5 working days in the EU and somewhere around 6-8 in North america and Asia.</p>
+					<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial;line-height:1.125">In your paypal payment, a tracking number will be added and can be searched <mark><g-link to="https://www.postnord.se/en/our-tools/track-and-trace2">right here.</g-link></mark> PostNord delivers within 5 working days in the EU and somewhere around 6-8 in North america and Asia.</p>
 				</article>
 			</div>
 		</section>
@@ -93,16 +93,6 @@ p {
 }
 
 
-
-.container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 0em;
-  margin-left: 26vw;
-  margin-bottom: 8em;
-  background-color:none;
-  }
-
 .left {
   width: 100%;
 }
@@ -115,20 +105,16 @@ p {
 }
 
 @media (max-width: 33em) {
-  .container {
-    margin-bottom:4em;
-    padding-top: 0em;
-    background: none;
-    }
-
- 
   .item {
   margin-bottom: 0em;
   text-align: left;
   background:none;
   }
   
-
+.item1 {
+  padding-bottom: .67em;
+  margin-top:-1em;
+}
   .left {
     opacity: 66%;
   }
@@ -148,14 +134,13 @@ p {
 }
 @media (max-width: 48em) {
   .container {
-    margin-left:2vw;
-    margin-right:2vw;
+    margin-left:5vw;
+    margin-right:5vw;
     margin-bottom:8em;
-    margin-top: 4em;
-    width: 95.67vw;
-    background-color:none;
+    margin-top: 6em;
+    width: 90vw;
+    background-color: none;
     }
-}
 
 .item {
   margin-bottom: 0em;
@@ -164,7 +149,8 @@ p {
   }
 
 .item1 {
-  padding-bottom: 1.67em;
+  padding-bottom: .67em;
+  margin-top:-2em;
 }
 
 .left {
@@ -188,7 +174,7 @@ background-color: none;
 .item5, .item3{
   order: 3;
 }
-
+}
    
 @media (min-width: 48em){
   .left, .right{
@@ -198,29 +184,28 @@ background-color: none;
   
   .container{
     display: block;
-    margin-left: 23vw;
-    background-color: none;
-    margin-top:.25em;
-    margin-left: 12em;
-    margin-right:2vw;
+    margin-left: 25vw;
+    background-color:none;
+    margin-right:1vw;
   }
 
   .left{
-    width: 52%;
-    margin-right: 1em;
+    width: 45%;
+    margin-right: 3vw;
     padding-top: 0em;
+    background-color: none;
     }
 
   .right{
-    width: 45%;
-    margin-top: 2em;}
+    width: 50%;
+    margin-top: 1.8em;
+    background-color: none;}
 
      #accordion input {
 	display: none;
 }
 #accordion label {
 	background:white;
-	
 	cursor: pointer;
 	display: block;
 	margin-bottom: .0;
@@ -256,23 +241,19 @@ background-color: none;
 #accordion input:checked ~ article {
 	height: auto;
 	margin-bottom: .125em;
-  text-align: right;
+  text-align: right;}
 }
 
-}
-
-
-@media (min-width: 64em){
+@media (min-width: 70em){
   .left, .right{
     display: inline-block;
-    vertical-align: top;
-  }
+    vertical-align: top;}
   
   .container{
     display: block;
     margin-left: 24.67vw;
-    margin-right:2vw;
-  }
+    margin-right:2vw;}
+    
   .left{
      width: 45%;
     margin-right: 2vw;}
@@ -344,51 +325,7 @@ background-color: none;
 
 mark {
   background-color: yellow;
-  color: black;
   }
-
-    @media (max-width: 48em) {
-     .Sidebar {
-      background:yellow;
-      margin-left:-.0em;
-      padding-left:.34em;
-      padding-top: .5em;
-      padding-bottom: .34em;
-      padding-right: .34em;
-      height: 12.67em;
-      width: 7em;
-      top:3.2em;
-        }
-      }
-
- @media (min-width: 48em) {
-     .Sidebar {
-      position: fixed;
-      background:none;
-      top: 3.56em;
-      bottom: 0;
-      left: 0;
-      background:none;
-      opacity: 100%;
-      z-index: 0;
-      width: 6em;
-        }
-      }
-
-  @media (min-width: 64em) {
-     .Sidebar {
-      position: fixed;
-      background:none;
-      top: 3.56em;
-      bottom: 0;
-      left: 0;
-      background:none;
-      opacity: 100%;
-      z-index: 0;
-      width: 6em;
-      margin-left:7.34vw;
-        }
-      }
 
   
 </style>

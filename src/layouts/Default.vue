@@ -2,22 +2,23 @@
 
   <div class="layout">
     <div class="header">
-      <a href="#default" class="logo"><g-link to="/">Hot request</g-link></a>
+      <a href="#default" class="logo"><g-link to="/">HOT REQUEST</g-link></a>
     </div>
 
     <div class="sidebar">
-      <div class="Sidebar" v-bind:class="{ open: isActive}" style="opacity:100%; line-height:1em;">
-        <g-link to="/newstuff/">New stuff</g-link><br>
-            <g-link to="/afro/">afro</g-link><br>
-            <g-link to="/boogie/">boogie</g-link><br>
-            <g-link to="/esoteric/">esoteric</g-link><br>
-            <g-link to="/pop/">pop music</g-link><br>
-            <g-link to="/reggae/">reggae</g-link><br>
+      <div class="Sidebar" v-bind:class="{ open: isActive}" style="opacity:100%;">
+        <g-link to="/newstuff/">NEW STUFF</g-link><br>
+            <g-link to="/boogie/">BOOGIE</g-link><br>
+            <g-link to="/esoteric/">ESOTERIC</g-link><br>
+            <g-link to="/pop/">POP MUSIC</g-link><br>
+            <g-link to="/reggae/">REGGAE</g-link><br>
+            <g-link to="/tropical/">TROPICAL</g-link><br>
              <br>
-            <g-link to="/faq/">Faq</g-link><br>
-            <g-link to="/contact/">contact</g-link><br>
+            <g-link to="/faq/">FAQ</g-link><br>
+            <g-link to="/contact/">CONTACT</g-link><br>
             <br>
-            <g-link to="/cart/">Cart (0)</g-link><br>
+            <g-link to="/cart/">CART (0)</g-link><br>
+            <g-link>SEARCH</g-link><br>
             <!-- <form class="example" action="/action_page.php" autocomplete="off">
   <input type="search" placeholder="search" name="search" >
   <button type="submit"><i class="fa fa-search"></i></button>
@@ -26,23 +27,23 @@
 
 </div>
 <div class="Hamburger"  @click.prevent="toggleClass">
-  <i class="Icon">
-    <g-image src="https://res.cloudinary.com/samtech/image/upload/v1596117440/d1.svg"/>
+    <h6>MENU</h6>
         
     
-  </i>
+ 
 </div>
     </div>
     <slot/>
     <div class="footer">
-      <footer style="background-color:whitesmoke;">
-        <ul>
-          <li><a href=""> Instagram</a></li>
-          <li><a href=""> Soundcloud</a></li>
-          <li><a href=""> Newsletter</a></li>
-          <li><a href=""> Copyright 2020</a></li>
-
-        </ul>
+      <footer>
+       <div class="flex-container">
+  <div class="flex-container1">
+  <div class="flex-item-left1"><g-link to="/">INSTAGRAM</g-link></div>
+  <div class="flex-item-left2"><g-link to="/">BLOG</g-link></div></div>
+  <div class="flex-container2">
+  <div class="flex-item-right1"><g-link to="/">NEWSLETTER</g-link></div>
+  <div class="flex-item-right2">COPYRIGHT 2020</div></div>
+</div>
       </footer>
     </div>
   </div>
@@ -64,7 +65,7 @@
 <style>
 /* unvisited link */
 a:link {
-  color: red;
+  color: black;
   text-decoration: none;
   text-emphasis: none;
   font-size:1em;
@@ -74,6 +75,9 @@ a:link {
 ul{
   display: flex;
   list-style: none;
+  font-size:  1.67em;
+  text-align: right;
+  margin-left: 2vw;
 }
 
 li:nth-child(2n){
@@ -92,65 +96,74 @@ a:hover {
 }
 
 body {
-  font-family: "Elmo";
+  font-family: "Arial Rounded MT Bold";
   margin:0;
   line-height: 1;
-  font-weight: bold;
   width: 100%;
   overflow-x: hidden;
   }
 
 .h1 {
-  font-family: "medi";
+  font-family: "Arial Rounded MT Bold";
   font-size:  2em;
-  font-weight: bold;
   }
 
 .h12 {
-  font-family: "tonii";
+  font-family: "Arial Rounded MT Bold";
   font-size:  1em;
-  font-weight: bold;
   }
 
 .p {
-  font-family: "elmo";
+  font-family: "Helveesti";
   font-size: calc(16px + 1vw);
   line-height: calc(1.1em + 0.5vw);
-  font-weight: bold;
+  font-weight: normal;
+  
   }
   
 h2 {
-  font-family: "elmo";
+  font-family: "Arial Rounded MT Bold";
   font-size: 1.5em;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: normal;
+
   }
 
 h3 {
-  font-family: "elmo";
+  font-family: "Arial Rounded MT Bold";
   text-align: right;
   font-size: 1.5em;
-  font-weight: bold;
+  font-weight: normal;
+
   }
 
 h4 {
   text-align: right;
-  font-family: "elmo";
+  font-family: "Arial Rounded MT Bold";
   font-size: 1.25em;
-  font-weight: bold;
+  font-weight: normal;
+ 
   }
 
 h5 {
-  font-family: "elmo";
+  font-family: "Arial Rounded MT Bold";
   font-size: 1.25em;
-  font-weight: bold;
+  font-weight: normal;
   }
 
+h6 {
+  font-style: normal;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 2em;
+  font-weight: normal;
+}
+
 .logo {
-  font-family: "Tonii-blacc";
-  font-size:  2em;
-  letter-spacing: -0.03em;
-  text-shadow: 3px 5px 3px white;
+  font-family: "Arial Rounded MT Bold";
+  text-align: center;
+  text-shadow: 3px 5px 3px none;
   z-index: 4;
+  font-weight: normal;
   }
 .layout {
   width: 100%;
@@ -166,20 +179,14 @@ h5 {
 
 .header {
   overflow: hidden;
-  margin-top: 1em;
-  width: 100%;
+  margin-top: 3.67em;
   position: relative;
-  left: 0;
-  top: 0;
-  background: none;
+   text-align: center;
   }
 
 .header a {
-  float: left;
   color: none;
   text-align: center;
-  text-decoration: none;
-  margin-left: 3.67vw;
   }
 
 .sticky {
@@ -189,7 +196,7 @@ h5 {
   }
 
 .header a.logo {
-  font-size: 2.67em;
+  font-size: 4em;
   }
 
 .header a:hover {
@@ -209,7 +216,7 @@ h5 {
   background-color: none;
   }
 
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 70em) {
    .left, .right{
     display: inline-block;
     vertical-align: top;
@@ -242,13 +249,7 @@ h5 {
 
   .header a {
     background-color: none;
-    margin-left: 1.1725vw;
-    float: left;
     }
-
-   .header {
-    background-color:none;
-    } 
     
   .header-right {
     float: fixed;
@@ -260,35 +261,43 @@ h5 {
   .header a {
     float: right;
     display: block;
-    align-items: center;
     background-color:none;
-    margin-right: .2em;
-    margin-top:0em;
+    width:100%;
     }
+
+  .header a.logo {
+  font-size: 3em;
+  margin-left: 8em;
+  }
 
   .header {
     float: right;
     display: block;
     position: fixed;
-    left: 0;
-    top: 0;
+    margin-top: -5.34em;
+    background-color: none;
     }
     
   .header-right {
-    margin-top:0.96em;
     font-size: 1.5em;
     position: relative;
     left: 0;
     top: 0;
-    background-color:none;
   }
+
+  ul{
+  display: flex;
+  list-style: none;
+  font-size:  1.34em;
+  text-align: center;}
 }
 
 @media screen and (max-width: 33em) {
   .container {
     background: none;
+    display: flex;
+    flex-flow: wrap;
     }
-
 .item {
   text-align: left;
   }
@@ -311,19 +320,20 @@ h5 {
   text-align: right;
   margin-right: 1.67vw;
   position: relative;
-  left: 0;
-  top: 0;
-  }
+  background-color:none;
+}
+
 .header {
   position: fixed;
   left: 0;
   top: 0;
+  margin-top:.67em;
+  background-color: none;
 } 
     
 .header-right {
   float: left;
   margin-left:3em;
-  margin-top:-1.5em;
   position: fixed;
   left: 0;
   top: 0;
@@ -365,25 +375,7 @@ form.example::after {
   
 }
 
-@font-face {
-    font-family: 'Elmo';
-    src: url('../assets/fonts/elmer-webfont.woff') format('woff'), /* Modern Browsers */
-         url('../assets/fonts/elmer-webfont.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;}
 
-@font-face {
-    font-family: 'Tonii-blacc';
-    src: url('../assets/fonts/Tonii-blacc.woff') format('woff'), /* Modern Browsers */
-         url('../assets/fonts/Tonii-blacc.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;}
-* {box-sizing: border-box;}
-
-
-/* Change background on mouse-over */
 .navbar a:hover {
   color: red;
 }
@@ -393,44 +385,44 @@ form.example::after {
 .Sidebar {
   background:none; opacity: 100%;
   position: fixed;
-  top: 4.34em;
+  top: 5.78em;
   bottom: 0;
   left: 0;
-  z-index: 0;
+  z-index: 6;
   margin-left: 8vw;
   font-size: 1.67em;
   width: 7em;
 }
 .Hamburger {
   position: fixed;
-  margin-top: 3em;
-  opacity: 0;
-  z-index: 2;
-  margin-left:2.5vw;
+  margin-top: 0em;
+  opacity: 100;
+  z-index: 6;
+  margin-left:3vw;
+  background-color: none;
+  height: 45em;
 }
 @media (max-width: 48em) {
 
   .header a {
   float: right;
   display: block;
-  text-align: right;
   position: relative;
-  left: 0;
-  top: 0;
+  text-align: center;
   }
   .Sidebar {
-    transform: translate3d(-100%, 0, 0);
-    top: 3em;
-    
+    transform: translate3d(-300%, 0, 0);
   }
   .Hamburger {
-    opacity: 1;
+    opacity: 100%;
     margin-left:2.5vw;
-    top: -2.2em;
+     z-index: 6;
   }
  
   .Sidebar.open {
     transform: translate3d(0, 0, 0);
+     z-index: 6;
+     margin-top:-3em;
   }
 
      .left, .right{
@@ -514,6 +506,8 @@ form.example::after {
     background-color: none;
     } 
 
+  
+
     form.example input[type=text] {
   font-family: 'elmo';
   font-size: 1em;
@@ -527,18 +521,25 @@ form.example::after {
 }
   }
 
-@media (max-width: 64em) {
+@media (max-width: 70em) {
+  .Hamburger {
+  position: fixed;
+  margin-top: -9em;
+  opacity: 0%;
+  z-index: 6;
+  height: 1em;
+
+  margin-left:2.5vw;}
+
   .Sidebar {
   position: fixed;
-  background:none;
-  top: 4.34em;
-  bottom: 0;
-  left: 0;
-  background:none;
+  top: 5.85em;
   opacity: 100%;
   z-index: 0;
   margin-left: 2.34vw;
   width: 6em;
+  line-height:1.125em;
+  background-color:none;
   }
   }
 
@@ -551,6 +552,14 @@ form.example::after {
 
 .main {
   font-size: 2em;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  font-size:  1.34em;
+  text-align: right;
+  padding-top:.7em;
 }
 
 .topnav input[type=text] {
@@ -661,47 +670,247 @@ p {
   
    @media (max-width: 48em) {
      .Hamburger {
-  margin-left: 2.34vw;
+  margin-left: 5vw;
+   z-index: 6;
 }
-     
+      .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
      .Sidebar {
-      background:yellow;
-      margin-left:-.0em;
-      margin-top: .44em;
+      border-radius: 25px;
+      background:white;
+      margin-left:.25em;
+      margin-top: -3em;
       padding-left:.34em;
       padding-top: .67em;
       padding-bottom: .34em;
       padding-right: .34em;
-      height: 11.67em;
+      height: 15em;
       width: 7em;
+      box-shadow: 2px 6px 6px 0px black;
         }
 
         
       }
-@media (min-width: 64em) {
-         footer{
-      padding:.67em;
-      padding-left:7.34vw;
-      border-top: .1725em solid black;
-        }
+@media (min-width: 70em) {
+       * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.67em;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 25px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: orangered;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: purple;
+}
+
+.flex-item-left1 {
+  background-color: green;
+  padding-top: .67em;
+  padding-bottom:.125em;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-right: 1vw;
+  flex: 10%;
+}
+
+.flex-item-left2 {
+  background-color: whitesmoke;
+  padding: .67em;
+  margin-left: 1vw;
+  flex: 10%;
+}
+
+.flex-item-right1 {
+  background-color: chartreuse;
+  margin-right: 1vw;
+  padding:.67em;
+  flex: 10%;
+}
+
+.flex-item-right2 {
+  background-color:cyan;
+  margin-left: 1vw;
+  padding:.67em;
+  flex: 10%;
+}
+
+      .Hamburger {
+      margin-top: -8vw;
+      z-index: 6;
+      opacity: 0;}
+
+  .Sidebar {
+   position: fixed;
+   background:none;
+   top: 5.85em;
+   bottom: 0;
+   left: 0;
+   background:none;
+   opacity: 100%;
+   z-index: 0;
+   margin-left: 8.34vw;
+   width: 6em;
+   line-height:1.125em;
+  }
+
       }
     
-     @media (min-width: 48em) {
-      footer{
-      padding:.67em;
-      padding-left:2.34vw;
-      border-top: .1725em solid black;
-       }
-      }
+  @media (min-width: 48em) {
+       * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.34em;
+  text-align: center;
+  margin-bottom:.67em;
+  margin-left:23vw;
+  margin-right: 1.67vw;
+  background-color: yellow;
+  border-radius: 25px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 4vw;
+  margin-right: 2vw;
+  background-color: orangered;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  background-color: aqua;
+
+}
+
+.flex-item-left1 {
+  background-color: none;
+  padding-top: .5em;
+  padding-bottom:.5em;
+  flex: 10%;
+}
+
+.flex-item-left2 {
+  background-color: none;
+  padding-top: .5em;
+  padding-bottom:.5em;
+  flex: 10%;
+}
+
+.flex-item-right1 {
+  background-color: none;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  flex: 10%;
+}
+
+.flex-item-right2 {
+  background-color:none;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  flex: 20%;
+}
+  }
     
     @media (max-width: 48em) {
-      footer{
-      padding:.67em;
-      padding-right:3vw;
-      border-top: .1725em solid black;
-      font-size:2.67vw;
-      text-align:right;
-      }
-    
-        }
+     * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.34em;
+  text-align: center;
+  margin-bottom:.67em;
+  margin-left:3vw;
+  margin-right: 3vw;
+  background-color: yellow;
+  border-radius: 25px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-item-left1 {
+  background-color: none;
+  padding-top: .34em;
+  padding-bottom:.125em;
+  flex: 10%;
+}
+
+.flex-item-left2 {
+  background-color: none;
+  padding-top: .34em;
+  padding-bottom:.125em;
+  flex: 10%;
+}
+
+.flex-item-right1 {
+  background-color: none;
+  padding-top: .125em;
+  padding-bottom:.34em;
+  flex: 10%;
+}
+
+.flex-item-right2 {
+  background-color: none;
+  padding-top: .125em;
+  padding-bottom:.34em;
+  flex: 10%;
+}
+
+.Hamburger {
+  position: fixed;
+  margin-top: -9.67em;
+  opacity: 100;
+  z-index: 6;
+  margin-left:5vw;
+  font-size: .8em;
+  background-color: none;
+  height: 4em;}
+  }
+
+  @media (max-width: 48em) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
 </style>

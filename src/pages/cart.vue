@@ -1,21 +1,21 @@
 <template>
   <Layout>
 
-    <h3>In your paypal payment, a tracking number will be added and can be searched right here. PostNord delivers within 5 working days in the EU and somewhere around 6-8 in North america and Asia.</h3>
+    <h3 style="font-family:ABC Helveesti Trial;">In your paypal payment, a tracking number will be added and can be searched right here. PostNord delivers within 5 working days in the EU and somewhere around 6-8 in North america and Asia.</h3>
     <div class="row">
       <div class="column left">
         <g-image src="https://res.cloudinary.com/samtech/image/upload/v1596047371/hrb7.jpg"/>
       </div>
       <div class="column middle">
-        <h5 style="margin-top:.34em;">"Stand up for your rights" LP<br>
-        Feel it <br>
-        Guavo editionz <br>
-        South africa '89 <br>
-        Vinyl vg+ sleeve vg <br></h5>
+        <h5 style="margin-top:.34em;">"STAND UP FOR YOUR RIGHTS" LP<br>
+        FEEL IT<br>
+        GUAVO LTD.<br>
+        SOUTH AFRICA, '89 <br>
+        VINYL VG+ SLEEVE VG- <br></h5>
       </div>
       <div class="column right">
-        <h4 style="margin-top:.34em;">$120.99</h4>
-        <hi style="text-align: right;font-size: 1.25em; margin-top:-1em;">Remove</hi>
+        <h4 style="margin-top:.34em;font-weight: normal;">170€</h4>
+        <hi>REMOVE</hi>
       </div>
     </div>
 
@@ -26,21 +26,42 @@
     <g-image src="https://res.cloudinary.com/samtech/image/upload/v1596047538/hrb10.jpg"/>
   </div>
   <div class="column middle">
-    <h5 style="margin-top:.34em;">"Sun tan club" LP<br>
-     For light tanning <br>
-     Guavo editionz <br>
-     Japan '86 <br>
-     Vinyl vg+ sleeve vg <br></h5>
+    <h5 style="margin-top:.34em;">"SUN TAN CLUB" LP<br>
+     FOR LIGHT TANNING<br>
+     ESTAZ<br>
+     JAPAN, '86 <br>
+     VINYL VG+ SLEEVE VG<br></h5>
   </div>
   <div class="column right">
-    <h4 style="margin-top:.34em;">$199.99</h4>
-    <hi style="text-align: right;font-size: 1.25em; margin-top:-1em;">Remove</hi>
+    <h4 style="margin-top:.34em;font-weight: normal;">199€</h4>
+    <hi>REMOVE</hi>
   </div>
 </div>
 
 
+<dd>
+<div class="row1" style="margin-top:0em;">
+  <div class="column left1">
+  </div>
+  <div class="column middle1">
+    <h5 style="margin-top:.34em;">SUBTOTAL</h5>
+  </div>
+  <div class="column right1">
+    <h4 style="margin-top:.34em;">308€</h4>
+  </div>
+</div>
 
 
+<div class="row1" style="margin-top:0em;">
+  <div class="column left1">
+  </div>
+  <div class="column middle1">
+    <h5 style="margin-top:.34em;">SHIPPING</h5>
+  </div>
+  <div class="column right1">
+    <h4 style="margin-top:.34em;">12€</h4>
+  </div>
+</div>
 
 
 
@@ -48,69 +69,84 @@
   <div class="column left1">
   </div>
   <div class="column middle1">
-    <h5 style="margin-top:.34em;">Shipping</h5>
+    <h5 style="margin-top:.34em;font-weight: normal;">TOTAL</h5>
   </div>
-  <div class="column right1">
-    <h4 style="margin-top:.34em;">$120.00</h4>
-  </div>
-</div>
-
-
-
-<div class="row1" style="margin-top:0em; margin-bottom: 2em;">
-  <div class="column left1">
-  </div>
-  <div class="column middle1">
-    <h5 style="margin-top:.34em;">Total</h5>
-  </div>
-  <div class="column right1">
-    <h4 style="margin-top:.34em;">$320.99</h4>
+  <div class="column right1"> 
+    <h4 style="margin-top:.34em;font-weight: normal;">320€</h4>
   </div>
 </div>
+</dd>
 
-
+ <row3>SHIPPING ADDRESS</row3>
  <form action="/action_page.php">
   <div class="row2">
-    <div class="col-25" style="margin:0em;">
-      <label for="name">Name</label>
+    <div class="col-25">
+      <label for="name">NAME</label>
     </div>
     <div class="col-75">
-      <input type="text" id="fname" name="firstname" style="text-align:right; background-color:whitesmoke; font-weight:bold;">
+      <input type="text" id="name" name="name" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
     </div>
   </div>
   <div class="row2">
     <div class="col-25">
-      <label for="lname">Email address</label>
+      <label for="address1">STREET ADDRESS #1</label>
     </div>
-    <div class="col-75" style="text-align:right; margin:0em;">
-      <input type="text" id="lname" name="lastname" style="text-align:right; background-color:whitesmoke; font-weight:bold;" placeholder="">
+    <div class="col-75">
+      <input type="text" id="address1" name="address1" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
     </div>
   </div>
   <div class="row2">
-    <div class="col-25" style="text-align:right; margin:0em; font-weight:bold;" >
-      <label for="topic">Topic</label>
+    <div class="col-25" >
+      <label for="address2">STREET ADDRESS #2</label>
     </div>
     <div class="col-75">
-      <select id="topic" name="topic" style="color:black; background-color:whitesmoke; font-weight:bold;">
-        <option value="request"></option>
-        <option value="request">Make a request</option>
-        <option value="before">Before order</option>
-        <option value="after">After order</option>
-      </select>
+      <input type="text" id="address2" name="address2" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
     </div>
   </div>
   <div class="row2">
     <div class="col-25">
-      <label for="subject">Additional info</label>
+      <label for="town">TOWN</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="" style="text-align:right; background-color:whitesmoke; height:3em; font-weight: bold;" ></textarea>
+      <input type="text" id="town" name="town" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
+    </div>
+  </div>
+  <div class="row2">
+    <div class="col-25">
+      <label for="postcde">POST CODE</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="postcode" name="postcode" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.5em;" placeholder="">
+    </div>
+  </div>
+   <div class="row2">
+    <div class="col-25" >
+      <label for="state">STATE/REGION</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="state" name="state" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.5em;" placeholder="">
+    </div>
+  </div>
+  <div class="row2">
+    <div class="col-25">
+      <label for="country">COUNTRY</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="country" name="country" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.5em;" placeholder="">
+    </div>
+  </div>
+  <div class="row2">
+    <div class="col-25">
+      <label for="subject">ADDITIONAL COMMENT</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="" style="background-color:whitesmoke; height:3em;border-radius: 25px; padding:.34em; padding-left:1.5em;" ></textarea>
     </div>
   </div>
    <div class="row2" style="margin-bottom:8em;">
 
-    <div class="col-25" style="text-align:right; font-size:1.5em; margin-top:0em; padding-bottom:2em; background-color:whitesmoke; font-weight:bold;" >
-      <input type="submit" style="background-color:whitesmoke;" value="Checkout">
+    <div class="col-25" style="text-align:center; font-size:1.5em; margin-right:0em; margin-bottom:8em;" >
+      <input type="submit" style="background-color:green;border-radius: 25px; padding:.34em; padding-right:.8em; padding-left:.8em;" value="CHECK OUT">
     </div></div>
   
   </form>
@@ -132,15 +168,6 @@
 
 
 <style>
-.container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 26vw;
-  margin-right: 0em;
-  margin-bottom: 8em;
-  width: 50vw;
-  }
-
 @media (min-width: 48em){
   .left, .right{
     display: inline-block;
@@ -150,32 +177,26 @@
     .row {
 margin-right:4vw;
     }
-  
-  .container{
-    display: block;
-    margin-left: 22vw;
-    margin-top:2.34em;
-    margin-right: 2em;
-    margin-left: 12em;
-    width: 64vw;
-    }
 
   .col-25 {
   text-align: right;
   color: black;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.25em;
+  border-radius: 25px;
+  margin-right:1em;
+  margin-bottom: .34em;
   }
 
   .col-75 {
   text-align: right;
   color: black;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 1.125em;
+  border-radius: 25px;
+  margin-bottom:.34em;
   }
 }
 
-@media (min-width: 64em){
+@media (min-width: 70em){
   .left, .right{
     display: inline-block;
     vertical-align: top;
@@ -185,25 +206,20 @@ margin-right:4vw;
 margin-right:7.34vw;
     }
 
-  .container{
-    display: block;
-    margin-left: 24.67vw;
-    width: 62vw;
-    height:48em;
-    }
+
 
   .col-25 {
   text-align: right;
   color: black;
-  font-weight: bold;
-  
-}
+  border-radius: 25px;
+  margin-right:1em;
+  margin-bottom: .34em;
+  background-color: none;}
 
 .col-75 {
   text-align: right;
-  color: black;
-  font-weight: bold;
-}
+  border-radius: 25px;
+  margin-bottom:.34em;}
   }
 
 
@@ -221,10 +237,9 @@ input[type=text], select, textarea {
   padding-bottom: 0em;
   border: 0px;
   resize: vertical;
-  font-family: 'elmo';
+  font-family: 'ABC Helveesti Trial';
   font-size: 1em;
   outline: none;
-  background-color: none;
 }
 
 label {
@@ -235,9 +250,8 @@ label {
 input[type=submit] {
   background-color:none;
   font-size: 1em;
-  font-family: 'tonii';
+  font-family: 'Arial Rounded MT Bold';
   border: none;
-
   padding:0em;
   cursor: pointer;
   float: right;
@@ -250,10 +264,6 @@ input[type=submit]:hover {
   padding:0em;
 }
 
-
-
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -263,29 +273,15 @@ input[type=submit]:hover {
   
 
   @media (max-width: 48em) {
-     .Sidebar {
-      background:yellow;
-      margin-left:-.0em;
-      padding-left:.34em;
-      padding-top: .5em;
-      padding-bottom: .34em;
-      padding-right: .34em;
-      height: 12.67em;
-      width: 7em;
-      top:3.15em;
-      z-index: 2;
-        }
-
 .column {
   float: left;
-  height: calc(8em + 5vw);}
+  }
 
 .row {
   margin-left: 2vw;
   margin-right: 2vw;
   margin-bottom: 2vw;
   align-content: center;
-  width: 96vw;
   background-color: none;}
 
 .row1 {
@@ -293,71 +289,91 @@ input[type=submit]:hover {
   margin-right: 2vw;
   height: 2em;
   align-content: center;
-  width: 96vw;
+  width: 9vw;
   background-color: none;
   }
 
 .row2 {
   padding-top:.67em;
-  padding-right: .67em;
-  margin-left: calc(8.8em + 9vw);
-  margin-right: 2vw;
-  background-color:whitesmoke;}
+  padding-right: 0em;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color:none;
+  border-radius: 25px;}
 
+   row3 {
+  display: block;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  text-align: center;
+  margin-bottom: 1.67em;
+  font-size: 1.34em;
+  }
+
+dd {
+  background-color:silver;
+  border-radius: 25px;
+  margin-left:27vw;
+  margin-right:3vw;
+  margin-top: 3em;
+  padding: .34em;
+  margin-bottom: 3em;
+}
+  
  .col-25 {
-  text-align: right;
+  text-align: left;
   color: black;
-  margin: 0em;
-  padding:0em;
   font-size: 1.25em;
-  font-weight: bold;
-  background-color: whitesmoke;
+  margin-left:1em;
+  margin-bottom:.34em;
+  border-radius: 25px;
+  background-color: none;
   }
 
 .col-75 {
   text-align: right;
   color: black;
-  margin: 0em;
+  margin-bottom:.34em;
   padding:0em;
-  font-size: 1.25em;
-  font-weight: bold;
+  font-size: 1.125em;
+  border-radius: 25px;
+  background-color: none;
   }
-
-
 
 .right {
   position: absolute;
-  right: 2vw;
-  width: 5em;
+  right: 4vw;
+  width: 3em;
   height: 4em;
   background-color: none;
   }
 
 .right1 {
   position: absolute;
-  right: 2vw;
+  right: 5vw;
   width: 5em;
   height: 2em;
+  background-color: none;
   }
 
 .middle {
-  width: 48vw;
-  background-color: none;}
+  width: 45vw;
+  background-color:none;}
 
 .middle1 {
-  width: 48vw;
+  position: absolute;
   height: 2em;
   background-color: none;
 }
   
 .left {
-  width: calc(8em + 5vw);
-  margin-right:4vw;}
+  margin-right:2vw;
+  width: 33vw;}
 
 .left1 {
-  width: calc(8em + 7vw);
   height: 2em;
-  margin-right:2vw;}
+  margin-right:2vw;
+  background-color: none;}
 
 .left2 {
 width: calc(8em + 5vw);
@@ -368,33 +384,31 @@ hi {
   background-color: yellow;
   position: absolute;
   right:0vw;
+  font-size: 1.25em;
+  margin-top: -1em;
 }
 
 
 h3 {
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   font-size:1.25em;
-  font-weight: bold;
   margin-top: 4.8em;
-  background-color: whitesmoke;  padding:2vw;}
+  line-height: 1.125em;
+  text-align: left;
+  margin-bottom:3em;
+  background-color: none;}
 
+h5 {
+  font-size: 1.25em;
+}
 
-        }
+  
+  }
 
 
  @media (min-width: 48em) {
-     .Sidebar {
-      position: fixed;
-      background:none;
-      top: 3.56em;
-      bottom: 0;
-      left: 0;
-      opacity: 100%;
-      z-index: 2;
-      width: 6em;
-        }
-
+  
 .column {
   float: left;
 }
@@ -402,35 +416,54 @@ h3 {
 .row {
   margin-left: 25vw;
   margin-top: .34em;
-  margin-right: 2vw;
-  margin-bottom: 2vw;
+  margin-right: 12vw;
+  margin-bottom: 1.34em;
   align-content: center;
+  background-color: none;
 }
 
 .row1 {
-  margin-left: 25vw;
-  margin-right: 2vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
   height: 2em;
-  align-content: center;}
+  align-content: center;
+  background-color: none;}
 
 .row2 {
   padding-top:.67em;
   padding-right: .67em;
   margin-left: 25vw;
   margin-right: 2vw;
-  background-color:whitesmoke;}
+  background-color: none;}
 
+   row3 {
+  display: block;
+  margin-left: 45vw;
+  margin-right: 23vw;
+  text-align: center;
+  font-size: 1.5em;
+  }
+
+  dd {
+  background-color: silver;
+  border-radius: 25px;
+  margin-left:49vw;
+  margin-right:3vw;
+  padding: .34em;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
 
 .right {
   position: absolute;
-  right: 2vw;
+  right: 5vw;
   width: 5em;
   height: 4em;
   background-color: none;}
 
 .right1 {
   position: absolute;
-  right: 2vw;
+  right: 5vw;
   width: 5em;
   height: 2em;
   }
@@ -440,6 +473,11 @@ hi {
   background-color: yellow;
   position: absolute;
   right:0vw;
+  font-size: 1.34em;
+  margin-top: -1em;
+  margin-right: -.34em;
+  border-radius: 25px;
+  padding:.34em;
 }
 
 .middle {
@@ -448,8 +486,8 @@ hi {
   background-color: none;}
 
 .middle1 {
-  width: 33vw;
   height: 2em;
+  margin-left: 1vw;
   background-color: none;
 }
 
@@ -460,125 +498,115 @@ hi {
   padding:0em;}
 
 .left1 {
-  width: 24vw;
-  height: 2em;
-  margin-right:2vw;}
+  width: 0vw;
+  height: 2em;}
   
 h3 {
   margin-top:1.8em;
   margin-left:24.67vw;
-  margin-right:2vw;
-  background-color: whitesmoke;
-  padding:1vw;
+  margin-right:5vw;
+  line-height: 1.125;
+  background-color: none;
   font-size:1.25em;
-  font-weight: bold;
+  text-align: left;
 }
 
       }
 
-  @media (min-width: 64em) {
-     .Sidebar {
-      position: fixed;
-      background:none;
-      top: 3.56em;
-      bottom: 0;
-      left: 0;
-      background:none;
-      opacity: 100%;
-      z-index: 2;
-      width: 6em;
-      margin-left:7.34vw;}
+  @media (min-width: 70em) {
+  
 
 .column {
   float: left;
   height: 2em;}
 
 .row {
-  margin-left: 25vw;
-  margin-top: .34em;}
+  margin-left: 25vw;}
 
 .row1 {
-  margin-left: 25vw;
   margin-right: 2vw;
-  height: calc(1em + 1.67vw);
   align-content: center;
   background-color: none;
-  }
+}
 
   .row2 {
   padding-top:.67em;
   padding-right: .67em;
   margin-left: 25vw;
   margin-right: 2vw;
-  background-color:whitesmoke;}
+  background-color: none;}
 
 .right {
  position: absolute;
- right: 2vw;
+ right: 5vw;
  width: 5em;
- height: 6vw;
- font-size: calc(.34em + 1vw);
  background-color: none;}
 
 .right1 {
  position: absolute;
- right: 2vw;
+ right: 5vw;
  width: 5em;
- height: calc(1em + 1.34vw);
- font-size: calc(.34em + 1vw);}
+ font-size: 1.125em;}
 
 hi {
   background-color: yellow;
   position: absolute;
   right:0vw;
+  font-size: 1.67em;
+  margin-top: -1em;
 }
 
+
+h4 {
+  font-size: 1.67em;
+}
+
+h5 {
+  font-size: 1.67em;
+}
 .middle {
   width: 32vw;
-  font-size: calc(.34em + 1vw);
-  height: 24vw;}
+  height: 24vw;
+  background-color: red;}
 
 .middle1 {
-  width: 32vw;
-  height: calc(1em + 1.34vw);
-  font-size: calc(.34em + 1vw);
-  background-color: none;
-  
+  height: 2em;
+  margin-left: 1vw;
+  background-color: none;}
+
+ dd {
+  background-color: silver;
+  border-radius: 25px;
+  margin-left:49vw;
+  margin-right:3vw;
+  padding: .67em;
+  padding-bottom:1.34em;
+  margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 .left {
   width: 24vw;
   height: 24vw;
-  margin-right:2vw;
+  margin-right:1vw;
   padding:0em;}
 
-.left1 {
-  width: 24vw;
-  height: calc(1em + 1.34vw);
-  margin-right:2vw;}
+  .left1 {
+  width: 0vw;
+  height: 2em;}
 
 h3 {
-  margin-top:1.3em;
-  margin-left:23.95vw;
-  margin-right:2vw;
-  background-color: whitesmoke;
-  padding: 1vw;
+  margin-top:1.8em;
+  margin-left:24.67vw;
+  margin-right:5vw;
+  line-height: 1.125;
+  background-color:none;
+ 
 }
       }
 
 @media (max-width: 33em) {
-     .Sidebar {
-      background:yellow;
-      margin-left:-.0em;
-      padding-left:.34em;
-      padding-top: .5em;
-      padding-bottom: .34em;
-      padding-right: .34em;
-      height: 12.67em;
-      width: 7em;
-      top:3.15em;
-      z-index: 2;
-        }
+    
      
 .column {
   float: left;
@@ -586,86 +614,116 @@ h3 {
 }
 
 .row {
-  width: 78vw;
-  margin-left: 11vw;
-  margin-right: 11vw;
-  margin-bottom:2em;
+  margin-left: 3vw;
+  margin-bottom:1em;
   padding:0em;
   background-color:none;}
 
 .row1 {
-  width: 77vw;
-  margin-left: 11vw;
-  margin-right: 11vw;
-  padding:0em;
-  background-color: none;}
+  margin-left: 2vw;
+  margin-right: 2vw;
+  height: 1.34em;
+  width: 9vw;
+  background-color: none;
+  }
 
 .row2 {
-  margin-left: 2vw;
-  margin-right:2vw;
-  padding-top:.67em;
-  padding-right: .67em;}
+  margin-left: 5vw;
+  margin-right:5vw;
+  background-color:none;}
+
+  row3 {
+  display: block;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 3em;
+  margin-bottom: 1.67em;
+  text-align: center;
+  font-size: 1.34em;
+  }
 
  .col-25 {
-  text-align: right;
   color: black;
   font-size: 1.25em;
-  font-weight: bold;
-  background-color: whitesmoke;
-  margin: 0em;
-  padding:0em;}
+  margin-left:1.25em;
+  margin-bottom:.125em;
+  background-color: none;
+  }
 
 .col-75 {
-  text-align: right;
-  color: black;
-  margin: 0em;
+  margin-top: 0em;
+  margin-bottom:.34em;
   padding:0em;
-  font-size: 1.25em;
-  font-weight: bold;}
+  font-size: 1.125em;
+  background-color: none;
+  }
 
- hi {
-    background-color:yellow;
-    right:11vw;
+  dd {
+  background-color:silver;
+  border-radius: 25px;
+  margin-left:28vw;
+  margin-right:3vw;
+  margin-top: 3em;
+  width: 70vw;
+  margin-bottom: 1.5em;
+  padding:.34em;
+  padding-bottom: .67em;
 }
 
 .right {
-  height: calc(.34em - 9vw);
-  text-align: right;}
+  background-color:none;
+  margin-top: -.5em;
+  text-align: right;
+  margin-right:1vw;
+  width: 3em;}
 
 .right1 {
   text-align: right;
   background-color:none;
   height: 2em;
   position: absolute;
-  right: 11vw;}
+  right: 5vw;}
 
 .middle {
-  width: 42vw;
+  width: 46vw;
   margin-left:0em;
-  padding-right:0em;
-  padding-left:0em;}
+  margin-top:-.5em;
+  background-color:none;}
 
 .middle1 {
-  width: 54vw;
   text-align: left;
   height: 2em;
   position: absolute;
-  left: 11vw;}
+  left: 31.5vw;
+  background-color: none;}
 
 .left {
-  width: 8vw;}
+  width: 26vw;
+  background-color: none;}
 
 .left1 {
-  width: 0vw;
-  margin-right:0em;
-  height: 3em;}        
+  width: 24vw;
+  height: 0;
+  margin-right:2vw;}
 
 h3 {
-  font-size:1.25em;
-  margin-top:4em;
-  background-color: whitesmoke;
-  padding:2vw;
-  margin-top: 4.8em;}
+  font-size:1em;
+  line-height: 1.125;
+  margin-top: 6em;}
+
+h4 {
+  font-size: 1.125em;
+}
+
+h5 {
+  font-size: 1em;
+  line-height: 1.125;
+}
+
+hi {
+  font-size: 1em;
+  margin-top: -1em;
+}
 
         }
   

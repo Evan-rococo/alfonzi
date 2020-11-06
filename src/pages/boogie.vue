@@ -1,10 +1,11 @@
 <template>
 <div> 
 	  <div class="overlay"></div>
-    <div class="modal" style="transform: rotate(-9deg); mix-blend-mode: normal;"><g-image src="https://res.cloudinary.com/samtech/image/upload/f_auto/q_auto/v1596049509/d64.png"/></div>
+    
   <Layout>
 	    
     	<section class="products">
+        <genre style="position:fixed;">BOOGIE</genre>
 		<div class="product-card">
 			<div class="product-image">
 				 <g-link to="/product/">
@@ -12,8 +13,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>"Ich träume so leise von dir" LP</p>
-				<p>Becker, Stegmann, Lasker-Schuler</p>
+				<p style="margin-bottom: .34em;">"ICH TRÄUME SO LEISE VON DIR" LP</p>
+				<p>BECKER, STEGMANN, LASKER-SCHULER</p>
 			</div>
 		</div>
 		
@@ -24,8 +25,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>Mr. mac 12"</p>
-				<p>Steve williams</p>
+				<p style="margin-bottom: .34em;">MR. MAC 12"</p>
+				<p>STEVE WILLIAMS</p>
 			</div>
 		</div>
 		
@@ -36,8 +37,8 @@
     </g-link>
 			</div>
 	<div class="product-info">
-				<p>Sketches of anderland 7"</p>
-				<p>Angelo vanotti</p>
+				<p style="margin-bottom: .34em;">SKETCHES OF ANDERLAND 7"</p>
+				<p>ANGELO VANOTTI</p>
 			</div>
 		</div>
 		
@@ -48,8 +49,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>"I know you feel it" LP</p>
-				<p>Kumasi</p>
+				<p style="margin-bottom: .34em;">"I KNOW YOU FEEL IT" LP</p>
+				<p>KUMASI</p>
 			</div>
 		</div>
 		
@@ -60,8 +61,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>S/t LP</p>
-				<p>Puzzle</p>
+				<p style="margin-bottom: .34em;">S/T LP</p>
+				<p>PUZZLE</p>
 			</div>
 		</div>
 
@@ -72,8 +73,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>Broken ally 7"</p>
-				<p>Eddy alimante</p>
+				<p style="margin-bottom: .34em;">TENDER LOVER 7"</p>
+				<p>EDDY ALIMANTE</p>
 			</div>
 		</div>
 		
@@ -84,8 +85,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>Tender lover 7"</p>
-				<p>Eddy amiante</p>
+				<p style="margin-bottom: .34em;">UNLICENSED DEMO 12"</p>
+				<p>WITHHELD</p>
 			</div>
 		</div>
 		
@@ -96,8 +97,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>My name is bond 12"</p>
-				<p>Beat control</p>
+				<p style="margin-bottom: .34em;">MY NAME IS BOND 12"</p>
+				<p>BEAT CONTROL</p>
 			</div>
 		</div>
 		
@@ -108,8 +109,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>Feeling Nice 12"</p>
-				<p>Jam-master king</p>
+				<p style="margin-bottom: .34em;">FEELING NICE 12"</p>
+				<p>JAM-MASTER KING</p>
 			</div>
 		</div>
 		
@@ -120,8 +121,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>"Jazz maiden" EP</p>
-				<p>Accura</p>
+				<p style="margin-bottom: .34em;">"JAZZ MAIDEN" EP</p>
+				<p>ACCURA</p>
 			</div>
 		</div>
 		
@@ -132,8 +133,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>"Böhöbé Spirits Music" LP</p>
-				<p>Norberto de nöah</p>
+				<p style="margin-bottom: .34em;">"BÖHÖBÉ SPIRITS MUSIC" LP</p>
+				<p>NORBERTO DO NÖAH</p>
 			</div>
 		</div>
 		
@@ -144,8 +145,8 @@
     </g-link>
 			</div>
 			<div class="product-info">
-				<p>Tennesse stud 12"</p>
-				<p>Never was a horse like a</p>
+				<p style="margin-bottom: .34em;">TENESSEE STUD 12"</p>
+				<p>NEVER WAS A HORSE LIKE</p>
 			</div>
 		</div>
 	
@@ -191,7 +192,7 @@ label {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top:6em;
-	margin-left:1vw;
+	margin-left:5vw;
 	margin-bottom: 8em;
 	width:98vw;
 	background-color:none;
@@ -202,8 +203,8 @@ label {
 	display: flex;
 	flex-direction: column;
 	flex: 1 30%;
-	padding-left: 1vw;
-	padding-right: 1vw;
+	padding-left: 0vw;
+	padding-right: 0vw;
 }
 
 .product-image img {
@@ -218,15 +219,26 @@ label {
 	font-size: calc(.34em + 1.34vw);
 }
 
+
 @media ( max-width: 48em ) {
-	
+	genre {
+    background-color: none;
+    font-size: 1.34em;
+    padding: .34em;
+    padding-left:.67em;
+    padding-right:.67em;
+    border-radius: 25px;
+    margin-top:-1.8em;
+    right:3vw;
+
+  }
 	.product-card {
 	flex: 1 46%;
 	}
 	
 	.products .product-card:first-child, 
 	.products .product-card:nth-child(2) {
-	flex: 2 30%;
+	flex: 2 90%;
 	}
 
 	.overlay {
@@ -239,10 +251,10 @@ label {
       }
 
     .modal {
-        width: 28vw;
+        width: 54vw;
         position: fixed;
         top: 30%;
-        left: 36%;
+        left: 20%;
         text-align: center;
         z-index: 11;
       }
@@ -272,12 +284,6 @@ label {
     top: 0;
     background-color:none;
   	}
-
-}
-
-@media ( max-width: 33em ) {
-	
-
 }
 
 @media ( min-width: 48em ) {
@@ -290,19 +296,22 @@ label {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 2.34em;
-	margin-left:23.67vw;
-	width:75.34vw;
+	margin-left:25vw;
+	width:75.67vw;
 	flex: 1 36%;
-  background-color: none;
+   background-color:none;
 	}
 
 	.product-info {
-	margin-top: auto;
-	padding-top: .67em;
-	padding-bottom: 1em;
 	text-align: right;
 	font-size: calc(.34em + .67vw);
 }
+
+  .product-card {
+	flex: 1 46%;
+  margin-right:3vw;
+	}
+	
 	
 	.product-filter {
 		flex-direction: column;
@@ -321,10 +330,10 @@ label {
         z-index: 10;
       }
       .modal {
-        width: 24.34vw;
+        width: 25vw;
         position: fixed;
         top: 30%;
-        left: 49.2%;
+        left: 48.34%;
         text-align: center;
         z-index: 11;
       }
@@ -341,19 +350,27 @@ label {
   text-decoration: black;
 }
 
-
-
-
 .header-right {
   float: right;
   font-size: 2em;
   margin-right: 9vw;
   background-color: none;
-  }}
+  }
+  	genre {
+    background-color: none;
+    font-size: 1.34em;
+    padding: .34em;
+    padding-left:.67em;
+    padding-right:.67em;
+    border-radius: 25px;
+    margin-top:-3.34em;
+    right:2vw;
+  }
 
-@media screen and (max-width: 64em) {
+  }
 
-  .header a {
+@media screen and (max-width: 70em) {
+    .header a {
     background-color: none;
     margin-left: .86vw;
     float: left;
@@ -372,17 +389,28 @@ label {
   
 @media screen and (max-width: 33em) {
 	.product-card {
-		flex: 2 50%;
-	}
+		flex: 2 100%;
+    margin-left:0vw;}
+
+  	genre {
+    background-color: none;
+    font-size: 1.34em;
+    padding: .34em;
+    padding-left:.67em;
+    padding-right:.67em;
+    border-radius: 25px;
+    margin-top:-1.8em;
+    right:2vw;
+  }
 
 	.products {
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 6em;
-	margin-left: 1vw;
-	width:98vw;
+	margin-left: 5vw;
+  margin-right: 5vw;
+	width:90vw;
 	flex: 1 36%;
-  background-color:none;
 	}	
 
   .header a {
@@ -470,7 +498,23 @@ form.example::after {
   z-index: 2;
   margin-left:2.5vw;
 }
+
 @media (max-width: 48em) {
+  	.product-card {
+		flex: 2 100%;
+    margin-bottom: 1em;
+    font-size: 2em;
+	}
+
+	.products {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 6em;
+	margin-left: 5vw;
+  margin-right: 5vw;
+	width:90vw;
+	flex: 1 36%;
+	}	
 
   .header a {
   float: right;
@@ -516,7 +560,7 @@ form.example::after {
 }
 
 
-@media (max-width: 64em) {
+@media (max-width: 70em) {
   .Sidebar {
   position: fixed;
   background:none;
@@ -540,6 +584,8 @@ form.example::after {
   position: relative;
 }
 
+
+
 .sticky {
   position: relative;
   top: 0;
@@ -562,13 +608,29 @@ form.example::after {
       width: 7em;
         }
       }
- @media (min-width: 64em) {
-    	.products {
-	margin-top: 2.6em;
+ @media (min-width: 70em) {
+ 	.products {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2.34em;
+	margin-left:25vw;
+	width:75.67vw;
+	flex: 1 36%;
   background-color: none;
-	}	
+	}
+
+	.product-info {
+	text-align: right;
+	font-size: 1em;
+}
+
+  .product-card {
+	flex: 1 26%;
+  margin-right:3vw;
+	}
+	
      .Sidebar {
-      position: fixed;
+  position: fixed;
   background:none;
   top: 3.6em;
   bottom: 0;
@@ -583,4 +645,5 @@ form.example::after {
   #nav{
   display:none;
 }
+
 </style>
