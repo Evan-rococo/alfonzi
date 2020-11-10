@@ -2,8 +2,8 @@
   <Layout>
   <div class="flex-container">
   <div class="flex-container1">
-  <div class="flex-item-left1"><g-link to="/">INSTAGRAM</g-link></div>
-  <div class="flex-item-left2"><g-link to="/">SOUNDCLOUD</g-link></div></div>
+  <div class="flex-item-left1"><g-link to="https://www.instagram.com/pal.gunnar.mikkelsplass">INSTAGRAM</g-link></div>
+  <div class="flex-item-left2"><g-link to="http://www.google.com">SOUNDCLOUD</g-link></div></div>
   <div class="flex-container2">
   <div class="flex-item-right1"><g-link to="/">NEWSLETTER</g-link></div>
   <div class="flex-item-right2">COPYRIGHT 2020</div></div>
