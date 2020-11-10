@@ -1,122 +1,133 @@
 <template>
-<layout>
-<div class="container">
-	<div class="left">
-		<div class="item item1">
-			<input class="native-hidden" type="checkbox"/>
-		</div>
-		<div class="item item3">
+  <Layout>
+  
+  <div class="container">
+  <div class="left">
+    <div class="item item1"><input class="native-hidden" type="checkbox" /></div>
+    <div class="item item3" style="margin-top:.34em;"><div>
+          <audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
+   Your browser does not support the audio element.
+</audio>
+<a class="btn" id="nyan-btn" style="margin-bottom:0.25em;">LIBREVILLE (ROUGH MIX)</a><br>
+
+<audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
+   Your browser does not support the audio element.
+</audio>
+<a class="btn" id="nyan-btn" style="margin-bottom:0.25em;">EKWEGHELE</a><br>
+          
+<audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
+   Your browser does not support the audio element.
+</audio>
+<a class="btn" id="nyan-btn" style="margin-bottom:0.25em;">NEW CASINO</a><br>
+      </div>
+      
+  <div class="item item5" style="margin-top:0em;"></div></div>
+      </div>
+      
+
+<div class="right">
+  <div class="item item2">
+    <h2 style="margin-bottom:-.67em; margin-top:0em;">"STAND UP FOR YOUR RIGHTS" LP</h2>
+     <h2 style="margin-bottom:-.67em;">FEEL IT</h2>
+     <h2 style="margin-bottom:-.67em;">CHARLIZ AG</h2>
+     <h2 style="margin-bottom:-.67em;">SOUTH AFRICA, '89</h2>
+      <h2 style="margin-bottom:0em;">VINYL VG+ SLEEVE VG</h2>
+  </div>
+    
+    <div class="item item4" style="font-family:ABC Helveesti Trial;"> 
+    <p> A sentimental ballad is an emotional style of music that often deals with romantic and intimate relationships, 
+      and to a lesser extent, war (protest songs), loneliness.</p> <br/>
+    
+    <p>Death, drug abuse, politics and religion, usually in a poign pA sentimental ballad is an emotional 
+      style of music that often deals with romantic and intimate relationships,
+     and to a lesser extent, war (protest songs), loneliness, death, drug abuse, politics and religion.. 
+    </p> <br/> 
+
+
+    <p> Usually in a poignant but solemn manner. </p>  <br />
+    <p>Ballads are generally melodic enough to get the listener's attention but solemn manner. 
+    Ballads are generally melodic enough to get the listener's attention.
+    </p>  
+    </div>
+    
+    <div class="item item6" style="background-color:none"><div>
+      
+        <h12 class style="font-size:1.67em; line-height:1.5;">139€</h12><br>
+         
+      <input type="submit" style="border-radius: 25px; padding:.34em; padding-right:.8em; padding-left:.8em;" value="ADD TO CART">
+    </div>
+          
+      <section id="accordion" style="margin-top:.67em;">
 			<div>
-				<audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
-				Your browser does not support the audio element. </audio>
-				<a class="btn" id="nyan-btn">LIBREVILLE (ROUGH MIX)</a><br>
-				<audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
-				Your browser does not support the audio element. </audio>
-				<a class="btn" id="nyan-btn">EKWEGHELE</a><br>
-				<audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
-				Your browser does not support the audio element. </audio>
-				<a class="btn" id="nyan-btn">NEW CASINO</a><br>
-			</div>
-			<div class="item item5">
-			</div>
-		</div>
-	</div>
-	<div class="right">
-		<div class="item item2">
-			<h2 style="margin-bottom:-.67em; margin-top:0em;">"STAND UP FOR YOUR RIGHTS" LP</h2>
-			<h2 style="margin-bottom:-.67em;">FEEL IT</h2>
-			<h2 style="margin-bottom:-.67em;">CHARLIZ AG</h2>
-			<h2 style="margin-bottom:-.67em;">SOUTH AFRICA, '89</h2>
-			<h2 style="margin-bottom:0em;">VINYL VG+ SLEEVE VG</h2>
-		</div>
-		<div class="item item4" style="font-family:ABC Helveesti Trial;">
-			<p>
-				 A sentimental ballad is an emotional style of music that often deals with romantic and intimate relationships, and to a lesser extent, war (protest songs), loneliness.
-			</p>
-			<br/>
-			<p>
-				Death, drug abuse, politics and religion, usually in a poign pA sentimental ballad is an emotional style of music that often deals with romantic and intimate relationships, and to a lesser extent, war (protest songs), loneliness, death, drug abuse, politics and religion..
-			</p>
-			<br/>
-			<p>
-				 Usually in a poignant but solemn manner.
-			</p>
-			<br/>
-			<p>
-				Ballads are generally melodic enough to get the listener's attention but solemn manner. Ballads are generally melodic enough to get the listener's attention.
-			</p>
-		</div>
-		<div class="item item6">
-			<div>
-				<h12 class style="font-size:1.67em; line-height:1.5;">139€</h12><br>
-				<input type="submit" style="border-radius: 25px; padding:.34em; padding-right:.8em; padding-left:.8em;" value="ADD TO CART">
-			</div>
-			<section id="accordion" style="margin-top:.67em;">
-			<div>
-				<input type="checkbox" id="check-1"/>
+				<input type="checkbox" id="check-1" />
 				<label for="check-1" style="padding-bottom:0.67em;">CONDITIONS</label>
 				<article>
-				<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial;line-height:1.125;">
-					Hope that this place becomes somewhere fun on the web. I'll be filing it with all sorts of records; the kind you like. All styles respected, but the stock is heavily weighted towards the lesser-known. It seems there is no end to the pool of '80s records. <br>
-					<br>
-					 In recent years, I'm leaning more and more towards do-it-yourself. Be it pop music, tropical, boogie, etc. so long as it hits right.
-				</p>
+					<p style="margin-bottom:.67em;font-family:ABC Helveesti Trial;line-height:1.125;">Hope that this place becomes somewhere fun on the web. I'll be filing it with all sorts of records; the kind you like. All styles respected, but the stock is heavily weighted towards the lesser-known. It seems there is no end to the pool of '80s records. <br><br> In recent years, I'm leaning more and more towards do-it-yourself. Be it pop music, tropical, boogie, etc. so long as it hits right.</p>
 				</article>
 			</div>
-			</section>
-			<section id="accordion">
+      </section>
+      
+
+      <section id="accordion">
 			<div>
-				<input type="checkbox" id="check-8"/>
+				<input type="checkbox" id="check-8" />
 				<label for="check-8" style="padding-bottom:0.67em;">SHIPPING INFO</label>
 				<article>
-				<p style="font-family:ABC Helveesti Trial;">
-					Pricing is a good topic. Everything considered (rarity, hype, condition, and the music itself), the pricing also reflects the time spent chasing down these records. Also included in the price is the number of shitty records I've bought in the gambling process of "discovering" something unknown.<br>
-					<br>
-					 If the record is listed on discogs, I list cheaper. If there are no other copies available online, I'll try to find a price where it can sell for more in the future.<br>
-					<br>
-				</p>
+					<p style="font-family:ABC Helveesti Trial;">Pricing is a good topic. Everything considered (rarity, hype, condition, and the music itself), the pricing also reflects the time spent chasing down these records. Also included in the price is the number of shitty records I've bought in the gambling process of "discovering" something unknown.<br><br>
+          If the record is listed on discogs, I list cheaper. If there are no other copies available online, I'll try to find a price where it can sell for more in the future.<br><br>
+          </p>
 				</article>
 			</div>
-			</section>
-		</div>
-	</div>
-</div>
-</div>
-<row3>MORE GOOD RECORDS</row3>
-<nav>
-<div class="flex-container">
-<div class="flex-item-left">
-	<div class="flex-container3">
-		<div class="flex-item-left3">
-			<g-link to="/product/">
-			<g-image src="https://res.cloudinary.com/winenot/image/upload/v1601897451/z9_c9xmnc.jpg"/>
-			</g-link>
-		</div>
-		<div class="flex-item-right3">
-			<h5 style="margin-bottom:.34em">"I KNOW YOU FEEL IT" LP</h5>
-			<h5>KUMASI</h5>
-		</div>
-	</div>
-</div>
-<div class="flex-item-right">
-	<div class="flex-container3">
-		<div class="flex-item-left3">
-			<g-link to="/product/">
-			<g-image src="https://res.cloudinary.com/winenot/image/upload/v1601897448/p1_jy7ug9.png"/>
-			</g-link>
-		</div>
-		<div class="flex-item-right3">
-			<h5 style="margin-bottom:.34em">TENDER LOVER 7"</h5>
-			<h5>EDDY ALIMANTE</h5>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-</nav>
-</layout>
-</template>
+		</section>
+       </div> 
+       </div>
+   
+      
+      </div>
+    
 
+    
+      </div>
+      
+        <row3>MORE GOOD RECORDS</row3>
+          <nav>
+       
+
+<div class="flex-container">
+  <div class="flex-item-left">
+
+
+       <div class="flex-container3">
+  <div class="flex-item-left3"><g-link to="/product/">
+    <g-image src="https://res.cloudinary.com/winenot/image/upload/v1601897451/z9_c9xmnc.jpg"/>
+    </g-link></div>
+  <div class="flex-item-right3">
+    <h5 style="margin-bottom:.34em">"I KNOW YOU FEEL IT" LP</h5>
+     <h5>KUMASI</h5>
+  </div>
+</div>
+
+</div>
+  <div class="flex-item-right">
+    
+    
+    <div class="flex-container3">
+  <div class="flex-item-left3"><g-link to="/product/">
+    <g-image src="https://res.cloudinary.com/winenot/image/upload/v1601897448/p1_jy7ug9.png"/>
+    </g-link></div>
+  <div class="flex-item-right3">
+     <h5 style="margin-bottom:.34em">TENDER LOVER 7"</h5>
+     <h5>EDDY ALIMANTE</h5>
+
+  </div>
+</div>
+
+</div></div>
+</div></nav>
+  
+ 
+  </Layout>
+</template>
 
 
 
@@ -151,27 +162,55 @@
   }
 
 
+@media (max-width: 33em) {
+  .flex-container {
+    background-color: none;
+    margin-bottom: 6em;}
 
-
-@media (max-width: 48em) {
-  nav {background-color:none;
-    margin-left: 5vw;
-    margin-right: 5vw;}
+  .flex-container3 {
+    display: flex;
+    text-align: left;
+    }
 
   .flex-item-left3 {
     background-color: none;
+    flex: 50%;}
+
+  h5 {
+    font-size: 1.25em;
+    margin: auto;
+    } 
+
+  .flex-item-right3 {
+    background-color: none;
+    text-align: left;
+    flex: 50%;}
+
+  row3 {
+    display: block;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 0em;
+    font-size: 1.34em;}
+    }
+
+@media (max-width: 48em) {
+  nav {background-color:sienna;}
+
+  .flex-item-left3 {
+    background-color: plum;
     padding: 2vw;
     flex: 50%;}
 
   .flex-item-right3 {
-    background-color: none;
+    background-color: gold;
     padding: 2vw;
     font-size: .67em;
     text-align: left;
     flex: 50%;}
 
   .flex-container {
-    background-color: none;
+    background-color: orange;
     margin-bottom: 6em;}
    
   h5 {
@@ -184,8 +223,10 @@
     padding: .34em;
     width: 8em;
     display: block;
-    margin:auto;
+    margin-left:30vw;
+    margin-right:30vw;
     text-align: center;
+    margin-bottom: em;
     font-size: 1.34em;
     transform: rotate(-20deg);
     } 
@@ -193,19 +234,18 @@
 
 @media (min-width: 48em){
   nav {
-    width: 0vw;
-    margin-left: 12vw;
-    background-color:white;
+    background-color:none;
     }
 
   .flex-container {
     background-color: none;
     border-radius: 0;
-    width: 45vw;
+    margin-left: 24.75vw;
     margin-bottom: 6em;
     }
 
   .flex-container3 {
+    margin:auto;
     display: contents;
     background-color:none;
     display: flex;
@@ -215,21 +255,21 @@
     }
 
   .flex-item-left3 {
-    background-color:none;
+    background-color: #f1f1f1;
     flex: 50%;
-    width: 30vw;
+    width: 34.8vw;
     margin-bottom: .34em;}
 
 
   .flex-item-right3 {
-    background-color: white;
-    max-width: 30vw;
-    font-size: .8em;
+    background-color: none;
+    max-width: 36vw;
+    font-size: .67em;
     text-align: left;
     flex: 50%;}
 
   h5 {
-    font-size: 1em;
+    font-size: 1.25em;
     margin: auto;}
 
   row3 {
@@ -238,8 +278,10 @@
     padding: .34em;
     width: 8em;
     display: block;
-    margin-left:calc(57vw + 1em);
+    margin-left:50vw;
+    margin-right:50vw;
     text-align: center;
+    margin-bottom: em;
     font-size: 1.34em;
     transform: rotate(-20deg);
     } 
@@ -264,22 +306,15 @@
   .item {
     margin-bottom: 0em;
     text-align: left;
-    background:none;
-    margin-bottom: 0em;}
+    background:none;}
 
   .btn {
-    width: 90vw;
     background-color: none;
-    border-radius: 25px;
-    padding-right: .67em;
-    padding-left: .67em;
     margin-right: 2.67vw;
-    margin-bottom: .34em;
     }
   
   .item2 {
-    margin-top: 5vw;
-    background-color: none;}
+    margin-top: 5vw;}
 
   table {
     border-collapse: collapse;
@@ -303,10 +338,6 @@
   .item5, .item3{
     order: 3;
     }
-    
-  row3 {
-    margin-left:30%;
-  }
   }
 
 @media (max-width: 48em) {
@@ -319,17 +350,13 @@
     }
 
   input[type="checkbox"] {
-    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897475/hrb10_cxjt6q.jpg');
+    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897490/hrb18_qc4f4b.jpg');
     display: block;
     width: 90vw;
     height: 90vw;
     margin-left:0vw;
     margin-left:0vw;
     outline: 0;}
-
-  input[type="checkbox"]:checked {
-    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897502/hrb11_og1zp4.jpg');
-    }
 
   p {
     background-color: none;
@@ -370,7 +397,6 @@
 
   #accordion article p {
     font-size: 1.125em;
-    line-height: 1.125;
 	  padding-right: 1em;
     padding-left: 1em;
     padding-top:1em;
@@ -393,7 +419,6 @@
    cursor:pointer;
    display:inline-block;
    text-align: right;
-   margin-right:0em;
    }
 
   .container {
@@ -413,13 +438,11 @@
   .item1 {
     padding-bottom: 0em;
     margin-top:-.2em;
-    margin-bottom: 0em;
     }
 
   .item2 {
-    margin-top: .67em;
-    font-size: 1.125em;
-    background-color: none;}
+    margin-top: 1.34em;
+    font-size: 1.125em;}
 
   h2 {
     line-height: 1;
@@ -429,21 +452,16 @@
     font-size: 1.34em;
     text-align: right;
     line-height: 1.34em;
-    margin-bottom:1em;
+    margin-bottom:.67em;
     margin-right: 0vw;
     background-color: none;
     }
 
   .item4 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: .67em;
+    margin-right:.67vw;
     background-color:none;
     }
-
-  .item6 {
-    background-color: none;
-    margin-top:-.34em;
-  }
 
   .left {
     opacity: 100%;
@@ -471,26 +489,21 @@
     font-size: 1.67em;
     font-family: Arial Rounded MT Bold;
     border:0em;
-    margin-left:-.8em;
+    margin-left:0em;
     }
 
   input[type="checkbox"] {
-    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897475/hrb10_cxjt6q.jpg');
+    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897490/hrb18_qc4f4b.jpg');
     display: block;
     width: 30vw;
     height: 30vw;
     outline:0;}
-
-  input[type="checkbox"]:checked {
-    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897502/hrb11_og1zp4.jpg');
-    }
 
   .btn{
    font-size: 1em;
    cursor:pointer;
    display:inline-block;
    text-align: right;
-   margin-bottom: .34em;
    }
 
   .left, .right{
@@ -498,27 +511,15 @@
     vertical-align: top;
     }
   
-  .item1 {
-    margin-bottom: 1em;
-    margin-left: 1.34em;
-  }
-
-  .item2 {
-    margin-bottom: .67em;
-    width: 40.4vw;
-    font-size: 1em;
-    background-color:none;}
-
   .item3 {
     text-align: right;
     background-color:none;
     }
 
   .item4 {
-    margin-bottom: 1.34em;
+    margin-bottom: .67em;
     font-size: 1em;
-    line-height: 1.125;
-    background-color: none;}
+    background-color:none;}
 
   p {
     background-color: none;
@@ -535,7 +536,7 @@
 
   .left{
     width: 30vw;
-    margin-right: 1em;
+    margin-right: 2.34vw;
     background-color: none;}
 
   .item2 {
@@ -573,7 +574,6 @@
     border-radius:25px;
 	  height:0px;
 	  overflow:hidden;
-    margin-left: -16vw;
 	  z-index:10;
     text-align: left;
     }
@@ -599,9 +599,8 @@
   } 
 
 @media (min-width: 70em){
-  
   input[type="checkbox"] {
-    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897475/hrb10_cxjt6q.jpg');
+    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897490/hrb18_qc4f4b.jpg');
     display: block;
     width: 30vw;
     height: 30vw;
@@ -626,34 +625,27 @@
   .left{
     width: 30vw;
     margin-right: 1.34em;
-    max-width: 450px;
-    background-color: none;}
+    max-width: 450px;}
   
   .right{
     width: 46%;
-    background-color: none;}
-
-  .item1 {
-    margin-left: 1.34em;
-  } 
+    background-color: none;
+    } 
 
   .item2 {
     font-size: 1.125em;
     margin-bottom: 1em;
-    width: 41.4vw;
+    margin-right: 9vw;
     font-style: normal;
-    background-color: none;
     }
 
   .item3 {
     font-size: 1.34em;
     line-height: 1.34;
-    text-align: right;
-    background-color: none;
-    margin-right: 3ev;}
+    text-align: right;}
 
   .item4 {
-    margin-bottom: 1.5em;
+    margin-bottom: .67em;
     margin-right: 0em;
     background-color: none;}
 
@@ -665,7 +657,6 @@
    cursor:pointer;
    display:inline-block;
    text-align: right;
-   margin-bottom: .34em;
    }
 
   #accordion1 input {
@@ -709,60 +700,12 @@
     }
 
   input[type="checkbox"]:checked {
-    content: url('https://res.cloudinary.com/winenot/image/upload/v1601897502/hrb11_og1zp4.jpg');
+    content: url('https://res.cloudinary.com/winenot/image/upload/v1604043591/sex-total-2_t1vus0.jpg');
     }
 
   .native-hidden {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; }
-
-  #accordion article {
-	  background: silver;
-    border-radius:25px;
-	  height:0px;
-	  overflow:hidden;
-    margin-left: 0vw;
-	  z-index:10;
-    text-align: left;} 
-  }
-
-@media (max-width: 33em) {
-  nav {
-    background-color: none;
-    margin-left: 2vw;
-    margin-right: 2vw;
-  }
-
-  .flex-container {
-    background-color: none;
-    margin-bottom: 6em;}
-
-  .flex-container3 {
-    display: flex;
-    text-align: left;
-    }
-
-  .flex-item-left3 {
-    background-color: none;
-    flex: 50%;}
-
-  h5 {
-    font-size: 1.25em;
-    margin: auto;
-    } 
-
-  .flex-item-right3 {
-    background-color: none;
-    padding: 2vw;
-    font-size: .67em;
-    text-align: left;
-    flex: 50%;}
-
-  row3 {
-    display: block;
-    margin-left:auto;
-    text-align: center;
-    margin-bottom: 0em;}
     }
 </style>

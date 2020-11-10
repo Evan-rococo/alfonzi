@@ -36,7 +36,7 @@
     <slot/>
     <div class="footer">
       <footer>
-       <div class="flex-container">
+       <div class="flex-container" style="background-color: yellow;margin-bottom:.67em;box-shadow: 0px 0px 0vw 0vw green;">
   <div class="flex-container1">
   <div class="flex-item-left1"><g-link to="/">INSTAGRAM</g-link></div>
   <div class="flex-item-left2"><g-link to="/">BLOG</g-link></div></div>
@@ -318,7 +318,7 @@ h6 {
   float: right;
   display: block;
   text-align: right;
-  margin-right: 1.67vw;
+  margin-right: 2vw;
   position: relative;
   background-color:none;
 }
@@ -691,154 +691,8 @@ p {
       height: 15em;
       width: 7em;
       box-shadow: 2px 6px 6px 0px black;
-        }
-
-        
+        }  
       }
-@media (min-width: 70em) {
-       * {
-  box-sizing: border-box;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.67em;
-  text-align: center;
-  background-color: yellow;
-  border-radius: 25px;
-}
-
-.flex-container1 {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  background-color: orangered;
-}
-
-.flex-container2 {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  background-color: purple;
-}
-
-.flex-item-left1 {
-  background-color: green;
-  padding-top: .67em;
-  padding-bottom:.125em;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  margin-right: 1vw;
-  flex: 10%;
-}
-
-.flex-item-left2 {
-  background-color: whitesmoke;
-  padding: .67em;
-  margin-left: 1vw;
-  flex: 10%;
-}
-
-.flex-item-right1 {
-  background-color: chartreuse;
-  margin-right: 1vw;
-  padding:.67em;
-  flex: 10%;
-}
-
-.flex-item-right2 {
-  background-color:cyan;
-  margin-left: 1vw;
-  padding:.67em;
-  flex: 10%;
-}
-
-      .Hamburger {
-      margin-top: -8vw;
-      z-index: 6;
-      opacity: 0;}
-
-  .Sidebar {
-   position: fixed;
-   background:none;
-   top: 5.85em;
-   bottom: 0;
-   left: 0;
-   background:none;
-   opacity: 100%;
-   z-index: 0;
-   margin-left: 8.34vw;
-   width: 6em;
-   line-height:1.125em;
-  }
-
-      }
-    
-  @media (min-width: 48em) {
-       * {
-  box-sizing: border-box;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.34em;
-  text-align: center;
-  margin-bottom:.67em;
-  margin-left:23vw;
-  margin-right: 1.67vw;
-  background-color: yellow;
-  border-radius: 25px;
-}
-
-.flex-container1 {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  margin-left: 4vw;
-  margin-right: 2vw;
-  background-color: orangered;
-}
-
-.flex-container2 {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  margin-right: 1vw;
-  margin-left: 1vw;
-  background-color: aqua;
-
-}
-
-.flex-item-left1 {
-  background-color: none;
-  padding-top: .5em;
-  padding-bottom:.5em;
-  flex: 10%;
-}
-
-.flex-item-left2 {
-  background-color: none;
-  padding-top: .5em;
-  padding-bottom:.5em;
-  flex: 10%;
-}
-
-.flex-item-right1 {
-  background-color: none;
-  padding-top:.5em;
-  padding-bottom:.5em;
-  flex: 10%;
-}
-
-.flex-item-right2 {
-  background-color:none;
-  padding-top:.5em;
-  padding-bottom:.5em;
-  flex: 20%;
-}
-  }
     
     @media (max-width: 48em) {
      * {
@@ -853,7 +707,6 @@ p {
   margin-bottom:.67em;
   margin-left:3vw;
   margin-right: 3vw;
-  background-color: yellow;
   border-radius: 25px;
 }
 
@@ -913,4 +766,154 @@ p {
     flex-direction: column;
   }
 }
+
+@media (min-width: 48em) {
+       * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25em;
+  text-align: center;
+  
+  margin-left:23vw;
+  margin-right: 1.34vw;
+  border-radius: 25px;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 2.67vw;
+  background-color: none;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-right: 3vw;
+  background-color:none;
+
+}
+
+.flex-item-left1 {
+  background-color: none;
+  padding-top: .5em;
+  padding-bottom:.5em;
+  padding-right:.25vw;
+  width: 19vw;
+  flex: 10%;
+}
+
+.flex-item-left2 {
+  background-color: none;
+  padding-top: .5em;
+  padding-bottom:.5em;
+  padding-left:.25vw;
+  padding-right:.25vw;
+  width: 8vw;
+  flex: 10%;
+}
+
+.flex-item-right1 {
+  background-color: none;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  padding-left:.25vw;
+  padding-right:.25vw;
+  width: 23vw;
+  flex: 10%;
+}
+
+.flex-item-right2 {
+  background-color:none;
+  padding-top:.5em;
+  padding-bottom:.5em;
+  width: 23vw;
+  flex: 30%;
+}
+  }
+
+@media (min-width: 70em) {
+       * {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.67em;
+  border-radius: 25px;
+}
+
+.flex-container1 {
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 0vw;
+  flex-direction: row;
+  text-align: center;
+  background-color: none;
+}
+
+.flex-container2 {
+  display: flex;
+  margin-left: 0em;
+  flex-direction: row;
+  text-align: center;
+  background-color: none;
+}
+
+.flex-item-left1 {
+  background-color:none;
+  width: 17vw;
+  margin: auto;
+  flex: 10%;
+}
+
+.flex-item-left2 {
+  background-color: none;
+  width: 8vw;
+  margin: auto;
+  flex: 10%;
+}
+
+.flex-item-right1 {
+  background-color: none;
+  margin: auto;
+  width: 19vw;
+  flex: 10%;
+}
+
+.flex-item-right2 {
+  background-color:none;
+  margin: auto;
+  width: 25vw;
+  flex: 30%;
+}
+
+      .Hamburger {
+      margin-top: -8vw;
+      z-index: 6;
+      opacity: 0;}
+
+  .Sidebar {
+   position: fixed;
+   background:none;
+   top: 5.85em;
+   bottom: 0;
+   left: 0;
+   background:none;
+   opacity: 100%;
+   z-index: 0;
+   margin-left: 8.34vw;
+   width: 6em;
+   line-height:1.125em;
+  }
+
+      }
+    
 </style>

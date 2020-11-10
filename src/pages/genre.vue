@@ -19,7 +19,7 @@
 		<div class="product-card">
 			<div class="product-image">
 			 <g-link to="/product/">
-    <g-image src="https://res.cloudinary.com/samtech/image/upload/v1596029060/s4.jpg" width=450em; height="450em;"/>
+    <g-image src="https://res.cloudinary.com/winenot/image/upload/v1604657282/Compf-1_kx13nv.gif" width=450em; height="450em;"/>
     </g-link>
 			</div>
 			<div class="product-info">
