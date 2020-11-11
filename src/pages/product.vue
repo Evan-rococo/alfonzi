@@ -172,7 +172,7 @@
 
   .flex-container {
     background-color: none;
-    margin-bottom: 6em;}
+    margin-bottom: 1.67em;}
    
   h5 {
     font-size: 1.25em;
@@ -738,7 +738,7 @@
 
   .flex-container {
     background-color: none;
-    margin-bottom: 6em;}
+    margin-bottom: 1.67em;}
 
   .flex-container3 {
     display: flex;

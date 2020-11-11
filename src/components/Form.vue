@@ -2,15 +2,15 @@
 <div>
 	<form action="/action_page.php">
 		<div class="row2">
-			<div class="col-25" style="margin-right:1em;margin-bottom:.34em;">
+			<div class="col-25" style="margin-right:.34em;margin-bottom:.34em;">
 				<label for="name">NAME</label>
 			</div>
 			<div class="col-75" style="text-align:right;">
-				<input type="text" id="name" name="name" style="text-align:right; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;" placeholder="">
+				<input type="text" id="name" name="name" style="text-align:right; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em; " placeholder="">
 			</div>
 		</div>
 		<div class="row2">
-			<div class="col-25" style="margin-right:1em;margin-bottom:.34em;">
+			<div class="col-25" style="margin-right:.34em;margin-bottom:.34em;">
 				<label for="lname">EMAIL ADDRESS</label>
 			</div>
 			<div class="col-75" style="text-align:right;">
@@ -18,11 +18,11 @@
 			</div>
 		</div>
 		<div class="row2">
-			<div class="col-25" style="text-align:right; margin-right:1em; margin-bottom:.34em;">
+			<div class="col-25" style="text-align:right; margin-right:.34em; margin-bottom:.34em;">
 				<label for="topic">TOPIC</label>
 			</div>
 			<div class="col-75">
-				<select id="topic" name="topic" style="color:black; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;">
+				<select id="topic" name="topic" style="color:black; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:.34em;margin-bottom:.67em;-webkit-appearance: none;">
 					<option value="request"></option>
 					<option value="request">Make a request</option>
 					<option value="before">Before order</option>
@@ -31,11 +31,11 @@
 			</div>
 		</div>
 		<div class="row2">
-			<div class="col-25" style="margin-right:1em;margin-bottom:.34em;">
+			<div class="col-25" style="margin-right:.34em;margin-bottom:.34em;">
 				<label for="subject">ADDITIONAL INFO</label>
 			</div>
 			<div class="col-75">
-				<textarea id="subject" name="subject" placeholder="" style="text-align:right; background-color:whitesmoke; height:3em;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;"></textarea>
+				<textarea id="subject" name="subject" placeholder="" style="text-align:right; background-color:whitesmoke; height:6em;border-radius: 25px; padding:.34em; padding-right:1em;margin-bottom:.67em;"></textarea>
 			</div>
 		</div>
 		<div class="row2">
@@ -55,6 +55,11 @@ export default {
 }
 </script>
 <style scoped>@media (max-width:33em) {
+	form {
+		background-color: none;
+		width: 90vw;
+		margin-left: 5vw;
+	}
 	.column {
 		float:left;
 		height:8em;
@@ -62,29 +67,31 @@ export default {
 	.row2 {
 		padding-top:.67em;
 		padding-right:.67em;
-		margin-left:5vw;
-		margin-right:5vw;
 	}
 	.col-25 {
 		text-align:right;
 		color:black;
-		font-size:1.25em;
+		font-size:1.34em;
 		margin:0em;
 		padding:0em;
 	}
 	.col-26 {
-		margin-bottom:9em;
-		font-size:1em;
+		margin-bottom:0em;
+		margin:auto;
+		font-size:1.34em;
 		background-color:green;
 	}
 	.col-75 {
 		text-align:right;
 		color:black;
-		margin:0em;
 		padding:0em;
-		font-size:1.125em;
+		font-size:1.34em;
+		width: 90vw;
 		background-color:none;
-	}
+		}
+		
+	
+
 	h3 {
 		margin-top:4.8em;
 		font-size:1.25em;
@@ -94,13 +101,19 @@ export default {
 	}
 }
 @media (max-width:48em) {
+	form {
+		background-color: none;
+		width: 90vw;
+		margin-left: 5vw;
+	}
+	
 	.col-25 {
 		text-align:right;
+		font-size: 1.34em;
 		margin:0em;
 		padding:0em;
 	}
 	.col-26 {
-		margin-bottom:9em;
 		font-size:1.34em;
 		background-color:green;
 	}
@@ -125,6 +138,7 @@ export default {
 	}
 	h3 {
 		margin-top:1.5em;
+		line-height: 1.125;
 		margin-left:24.67vw;
 		margin-right:2vw;
 		background-color:none;
@@ -137,14 +151,13 @@ export default {
 	}
 	.col-25 {
 		text-align:right;
+		width: 70vw;
 		color:black;
-		font-size:1.25em;
-		border-radius:25px;
-		margin-right:1em;
-		margin-bottom:.34em;
+		font-size:1.34em;
+		background-color: none;
 	}
 	.col-26 {
-		margin-bottom:6em;
+		margin-bottom:9em;
 		font-size:1.34em;
 		background-color:green;
 	}
@@ -166,8 +179,9 @@ export default {
 	}
 	.col-25 {
 		text-align:right;
+		background-color: none;
 		color:black;
-		font-size:1.25em;
+		font-size:1.34em;
 	}
 	.col-26 {
 		margin-bottom:9em;
@@ -202,7 +216,7 @@ label {
 	outline:none;
 }
 input[type=submit] {
-	background-color:none;
+	background-color:plum;
 	font-size:1em;
 	font-family:'Arial Rounded MT Bold';
 	border:none;
@@ -212,7 +226,7 @@ input[type=submit] {
 	outline:none;
 }
 input[type=submit]:hover {
-	background-color:none;
+	background-color:orange;
 	outline:none;
 	padding: 0em;
 }
@@ -223,6 +237,8 @@ input[type=submit]:hover {
 	clear:both;
 }
 @media (max-width:48em) {
+	
+
 	.column {
 		float:left;
 		height:calc(8em+5vw);
@@ -231,23 +247,16 @@ input[type=submit]:hover {
 	.row2 {
 		padding-top:.67em;
 		padding-right:.67em;
-		margin-left:2vw;
-		margin-right:2vw;
 		background-color:none;
 	}
-	.col-25 {
-		text-align:right;
-		color:black;
-		font-size:1.25em;
-		margin:0em;
-		padding:0em;
-	}
+
 	.col-26 {
-		margin-bottom:9em;
-		font-size:1.25em;
+		margin-bottom:6em;
+		font-size: 1.34em;
 	}
 	.col-75 {
 		text-align:right;
+		width: 90vw;
 		color:black;
 		margin:0em;
 		padding:0em;

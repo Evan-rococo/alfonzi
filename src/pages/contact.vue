@@ -42,7 +42,7 @@ export default {
     margin-left:5vw;
     margin-right:5vw;
     margin-top: 0em;
-    background-color:none;
+    background-color:plum;
     }
 
 

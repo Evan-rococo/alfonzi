@@ -65,7 +65,20 @@
     }
 </script>
 
-<style>/* unvisited link */
+<style>
+
+a:selected {
+  color: #0000FF;
+	}
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: none;
+}
+
+::selection {
+  color: red;
+  background: none;
+}
 a:link {
 	color:black;
 	text-decoration:none;
@@ -602,7 +615,7 @@ p {
 		z-index:6;
 	}
 	.footer {
-		position:fixed;
+		position:relative;
 		left:0;
 		bottom:0;
 		width:100%;

@@ -220,7 +220,7 @@ label {
 	flex-wrap:wrap;
 	margin-top:6em;
 	margin-left:5vw;
-	margin-bottom:8em;
+	margin-bottom:3em;
 	width:98vw;
 	background-color:none;
 }
@@ -324,6 +324,7 @@ label {
 		margin-left:25vw;
 		width:74.2vw;
 		flex:1 36%;
+		margin-bottom: 6em;
 		background-color:none;
 	}
 	.product-info {

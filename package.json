@@ -7,6 +7,8 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
     "gridsome": "^0.7.0"
   }
 }
