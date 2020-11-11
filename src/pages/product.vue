@@ -394,6 +394,8 @@
    display:inline-block;
    text-align: right;
    margin-right:0em;
+   padding: 0;
+   margin-bottom: .34em;
    }
 
   .container {
