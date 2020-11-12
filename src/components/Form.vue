@@ -2,7 +2,7 @@
 <div>
 	<form action="/action_page.php">
 		<div class="row2">
-			<div class="col-25" style="margin-right:.34em;margin-bottom:.34em;">
+			<div class="col-25" style="margin-bottom:.34em;">
 				<label for="name">NAME</label>
 			</div>
 			<div class="col-75" style="text-align:right;">
@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<div class="row2">
-			<div class="col-25" style="margin-right:.34em;margin-bottom:.34em;">
+			<div class="col-25" style="margin-bottom:.34em;">
 				<label for="lname">EMAIL ADDRESS</label>
 			</div>
 			<div class="col-75" style="text-align:right;">
@@ -18,20 +18,20 @@
 			</div>
 		</div>
 		<div class="row2">
-			<div class="col-25" style="text-align:right; margin-right:.34em; margin-bottom:.34em;">
+			<div class="col-25" style="text-align:right; margin-bottom:.34em;">
 				<label for="topic">TOPIC</label>
 			</div>
 			<div class="col-75">
-				<select id="topic" name="topic" style="color:black; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:.34em;margin-bottom:.67em;-webkit-appearance: none;">
+				<select id="topic" name="topic" style="padding-left:4vw; color:red; background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-right:.34em;margin-bottom:.67em;-webkit-appearance: none;">
 					<option value="request"></option>
-					<option value="request">Make a request</option>
-					<option value="before">Before order</option>
-					<option value="after">After order</option>
+					<option value="request">MAKE A REQUEST</option>
+					<option value="before">BEFORE ORDER</option>
+					<option value="after">AFTER ORDER</option>
 				</select>
 			</div>
 		</div>
 		<div class="row2">
-			<div class="col-25" style="margin-right:.34em;margin-bottom:.34em;">
+			<div class="col-25" style="margin-bottom:.34em;">
 				<label for="subject">ADDITIONAL INFO</label>
 			</div>
 			<div class="col-75">
@@ -58,7 +58,6 @@ export default {
 	form {
 		background-color: none;
 		width: 90vw;
-		margin-left: 5vw;
 	}
 	.column {
 		float:left;
@@ -79,7 +78,7 @@ export default {
 		margin-bottom:0em;
 		margin:auto;
 		font-size:1.34em;
-		background-color:green;
+		background-color:none;
 	}
 	.col-75 {
 		text-align:right;
@@ -87,7 +86,6 @@ export default {
 		padding:0em;
 		font-size:1.34em;
 		width: 90vw;
-		background-color:none;
 		}
 		
 	
@@ -101,17 +99,20 @@ export default {
 	}
 }
 @media (max-width:48em) {
+	
 	form {
 		background-color: none;
 		width: 90vw;
-		margin-left: 5vw;
+		margin-left:5vw;
 	}
 	
 	.col-25 {
 		text-align:right;
 		font-size: 1.34em;
-		margin:0em;
+		width: 88vw;
+		margin-right:0em;
 		padding:0em;
+		background-color: none;
 	}
 	.col-26 {
 		font-size:1.34em;
@@ -175,10 +176,11 @@ export default {
 		vertical-align:top;
 	}
 	.row {
-		margin-right:7.34vw;
+		margin-right:0vw;
 	}
 	.col-25 {
 		text-align:right;
+		width: 98%;
 		background-color: none;
 		color:black;
 		font-size:1.34em;
@@ -237,12 +239,12 @@ input[type=submit]:hover {
 	clear:both;
 }
 @media (max-width:48em) {
-	
 
 	.column {
 		float:left;
 		height:calc(8em+5vw);
 		width:100%;
+		background-color: green;
 	}
 	.row2 {
 		padding-top:.67em;
@@ -276,8 +278,7 @@ input[type=submit]:hover {
 		padding:2vw;
 	}
 }
-@media (min-width:48em) {
-}
+
 @media (min-width:70em) {
 	.column {
 		float:left;
@@ -300,4 +301,17 @@ input[type=submit]:hover {
 		padding: .67vw;
 	}
 }
+
+label {
+	margin-right: .125em;
+}
+input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px whitesmoke inset !important;
+  }
 </style>

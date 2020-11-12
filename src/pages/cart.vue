@@ -5,7 +5,9 @@
 Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sportiva o per l'utilizzo di armi da fuoco, non vengono invece definiti fratture, ma semplici traumi penieni.</h3>
 <div class="row">
 	<div class="column left">
-		<g-image src="https://res.cloudinary.com/samtech/image/upload/v1596047371/hrb7.jpg"/>
+		<g-link to="/product/">
+			<g-image src="https://res.cloudinary.com/winenot/image/upload/v1601897497/hrb7_ixwoxu.jpg"/>
+			</g-link>
 	</div>
 	<div class="column middle">
 		<h5 style="margin-top:.34em;">"STAND UP FOR YOUR RIGHTS" LP<br>
@@ -22,7 +24,9 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 </div>
 <div class="row">
 	<div class="column left">
-		<g-image src="https://res.cloudinary.com/samtech/image/upload/v1596047538/hrb10.jpg"/>
+		<g-link to="/product/">
+			<g-image src="https://res.cloudinary.com/winenot/image/upload/v1601897453/s3_pffkyo.jpg" width=450em; height="450em;"/>
+			</g-link>
 	</div>
 	<div class="column middle">
 		<h5 style="margin-top:.34em;">"SUN TAN CLUB" LP<br>
@@ -76,7 +80,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="name">NAME</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="name" name="name" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
+			<input type="text" id="name" name="name" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -84,7 +88,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="address1">STREET ADDRESS #1</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="address1" name="address1" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
+			<input type="text" id="address1" name="address1" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -92,7 +96,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="address2">STREET ADDRESS #2</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="address2" name="address2" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
+			<input type="text" id="address2" name="address2" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -100,7 +104,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="town">TOWN</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="town" name="town" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.5em;" placeholder="">
+			<input type="text" id="town" name="town" style="background-color:whitesmoke;border-radius: 25px; padding:.34em;padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -108,7 +112,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="postcde">POST CODE</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="postcode" name="postcode" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.5em;" placeholder="">
+			<input type="text" id="postcode" name="postcode" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -116,7 +120,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="state">STATE/REGION</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="state" name="state" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.5em;" placeholder="">
+			<input type="text" id="state" name="state" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -124,7 +128,7 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="country">COUNTRY</label>
 		</div>
 		<div class="col-75">
-			<input type="text" id="country" name="country" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.5em;" placeholder="">
+			<input type="text" id="country" name="country" style="background-color:whitesmoke;border-radius: 25px; padding:.34em; padding-left:1.25em; padding-right:1.125em" placeholder="">
 		</div>
 	</div>
 	<div class="row2">
@@ -132,12 +136,12 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 			<label for="subject">ADDITIONAL COMMENT</label>
 		</div>
 		<div class="col-75">
-			<textarea id="subject" name="subject" placeholder="" style="background-color:whitesmoke; height:3em;border-radius: 25px; padding:.34em; padding-left:1.5em;"></textarea>
+			<textarea id="subject" name="subject" placeholder="" style="background-color:whitesmoke; height:6em;border-radius: 25px; padding:.34em; padding-left:1.25em; padding-right:1.125em"></textarea>
 		</div>
 	</div>
 	<div class="row2" style="margin-bottom:8em;">
 		<div class="col-25" style="text-align:center; margin-right:0em; margin-bottom:8em;">
-			<input type="submit" style="background-color:green;border-radius: 25px; padding:.34em; padding-right:.67em; padding-left:.67em;" value="CHECK OUT">
+			<input type="submit" style="color:black; background-color:green;border-radius: 25px; padding:.34em; padding-right:.67em; padding-left:.67em;" value="CHECK OUT">
 		</div>
 	</div>
 </form>
@@ -158,7 +162,14 @@ Traumi simili, se avvenuti a pene flaccido ad esempio durante l'attività sporti
 </script>
 
 
-<style>@media (min-width:48em) {
+<style>
+@media (min-width:48em) {
+	input {
+		text-align: right;
+		margin-right: 3em;
+		color:salmon;
+		font-size: 3em;
+	}
 	.left,.right {
 		display:inline-block;
 		vertical-align:top;
@@ -246,6 +257,13 @@ input[type=submit]:hover {
 	clear:both;
 }
 @media (max-width:48em) {
+	input {
+		color:green;
+		font-size: 3em;
+	}
+	img {
+		width: 100%;
+	}
 	.column {
 		float:left;
 		background-color:none;
@@ -262,7 +280,7 @@ input[type=submit]:hover {
 		margin-right:2vw;
 		height:1.67em;
 		align-content:center;
-		width:9vw;
+		width:36vw;
 		background-color:none;
 	}
 	.row2 {
@@ -312,6 +330,7 @@ input[type=submit]:hover {
 		width:3em;
 		height:2em;
 		background-color:none;
+		z-index: 0;
 	}
 	.right1 {
 		position:absolute;
@@ -372,6 +391,9 @@ input[type=submit]:hover {
 	}
 }
 @media (min-width:48em) {
+	img {
+		width: 100%;
+	}
 	.column {
 		float:left;
 	}
@@ -437,6 +459,10 @@ input[type=submit]:hover {
 		border-radius:25px;
 		padding:.34em;
 	}
+	.right {
+		background-color: none;
+		z-index: 0;
+	}
 	.middle {
 		width:34vw;
 		height:24vw;
@@ -488,6 +514,7 @@ input[type=submit]:hover {
 		margin-bottom:1.67em;
 	}
 	.row1 {
+		height:2.34em;
 		margin-right:2vw;
 		align-content:center;
 		background-color:none;
@@ -561,6 +588,9 @@ input[type=submit]:hover {
 	}
 }
 @media (max-width:33em) {
+	img {
+		width: 100%;
+	}
 	.column {
 		float:left;
 		height:25.75vw;
@@ -665,4 +695,13 @@ input[type=submit]:hover {
 		margin-top: .34em;
 	}
 }
+input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px whitesmoke inset !important;
+  }
 </style>
